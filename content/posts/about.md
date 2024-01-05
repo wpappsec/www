@@ -43,7 +43,7 @@ Over time we will classify and priorities these security items into a standardar
 [Read the draft](https://wpappsec.github.io/www/posts/standards/)
 
 ## WPAPPSEC Membership
-We are asking WordPress professionals and organizations to sign up to our commitment to make WordPress applications more secure. This simply involves agreeing to the commitment and raising issues in the projects you work on.
+We will be asking WordPress professionals and organizations to sign up to our commitment to make WordPress applications more secure. This simply involves agreeing to the commitment and raising issues in the projects you work on.
 
 <!-- Read the commitment   -->
 <!-- See our members  -->
