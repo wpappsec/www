@@ -22,7 +22,6 @@ https://www.reddit.com/user/wpappsec/
 https://www.instagram.com/wpappsec/   
 https://www.tiktok.com/@wpappsec    
 https://www.linkedin.com/groups/12953541/   
-
 https://github.com/wpappsec   
 https://wpappsec.github.io/www/    
 
