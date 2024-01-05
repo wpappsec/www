@@ -32,7 +32,19 @@ https://wpappsec.github.io/www/
 ## WPAPPSEC Checklist
 Here you will find an open source checklist of things to consider when securing your WordPress application, with the help of the WordPress community this will expand and grow as we do.
 
-Contribute to the list {{< ref "checklist.md" >}}
+Contribute to the list 
+
+[Link text]({{< ref "checklist.md" >}} "Link title")
+
+[Link text](checklist.md "Link title")
+
+{{< ref "checklist.md" >}}
+
+<checklist.md>
+
+checklist.md
+
+
 
 ## WPAPPSEC Standards
 Over time we will classify and priorities these security items into a standardardised way for ensuring common issues and solutions are addressed when procuring, designing, building and managing Wordpress applications.
