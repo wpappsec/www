@@ -47,28 +47,24 @@ We are asking WordPress professionals and organizations to sign up to our commit
 
 
 
-{{/* 
-Read the commitment
-See our members 
-Join as a professional 
-Join as an organization 
-*/}} 
+{{/* Read the commitment */}} 
+{{/* See our members */}} 
+{{/* Join as a professional */}} 
+{{/* Join as an organization */}} 
 
 ## WPAPPSEC Help center 
 Here you will find documents on various topics pertinent to but outside of application security. These will be on subjects such as email, DNS, and physical security, with the aim of pointing you in the right direction. 
 
-{{/* 
+// 
 View the documents
 Submit a document 
-*/}} 
+//
 
 ## WPAPPSEC Tool list 
 This will be a list of WordPress tools and services providers that may help you cover WordPress security issues. 
 
 
 
-{{/* 
-See the list of tools 
-Submit a tool 
-*/}} 
+// See the list of tools //
+// Submit a tool //
 
