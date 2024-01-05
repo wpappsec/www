@@ -13,7 +13,7 @@ WPAPPSEC is an abbreviation of WordPress Application Security and is an organiza
 
 WordPress is awesome and super easy to install and set up, but its popularity and ease makes it a hot target for mischief. By beefing up your application security, you're helping your users stay safe. 
 
-This site aims to help various types of wordPress users, from first time amature bloggers through to full time WordPress professionals. 
+This site aims to help various types of WordPress users, from first time amature bloggers through to full time WordPress professionals. 
 
 ## WPAPPSEC Communities 
 
