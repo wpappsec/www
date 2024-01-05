@@ -26,10 +26,12 @@ https://www.reddit.com/user/wpappsec/
 https://www.reddit.com/r/WPAPPSEC/   
 https://www.instagram.com/wpappsec/   
 https://www.tiktok.com/@wpappsec    
-https://www.linkedin.com/groups/12953541/   
-https://github.com/wpappsec   
-https://wpappsec.github.io/www/    
+https://www.linkedin.com/groups/12953541/ 
 
+Know how to write code? Why not create or pick up an issue!   
+https://github.com/wpappsec/www/issues
+https://github.com/wpappsec   
+https://wpappsec.github.io/www/  
 
 ## WPAPPSEC Checklist
 Here you will find an open source checklist of things to consider when securing your WordPress application, with the help of the WordPress community this will expand and grow as we do.
