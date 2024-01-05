@@ -21,6 +21,7 @@ Join us on one of the below platforms.
 
 https://twitter.com/wpappsec   
 https://www.reddit.com/user/wpappsec/   
+https://www.reddit.com/r/WPAPPSEC/   
 https://www.instagram.com/wpappsec/   
 https://www.tiktok.com/@wpappsec    
 https://www.linkedin.com/groups/12953541/   
