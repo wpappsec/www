@@ -13,6 +13,19 @@ WordPress is awesome and super easy to install and set up, but its popularity an
 
 This site aims to help various types of wordPress users, from first time amature bloggers through to full time WordPress professionals. 
 
+## WPAPPSEC Communities 
+
+Join us on one of the below platforms. 
+
+https://twitter.com/wpappsec
+https://www.reddit.com/user/wpappsec/
+https://www.instagram.com/wpappsec/
+https://www.tiktok.com/@wpappsec 
+https://www.linkedin.com/groups/12953541/
+
+https://github.com/wpappsec
+https://wpappsec.github.io/www/ 
+
 
 ## WPAPPSEC Checklist
 Here you will find an open source checklist of things to consider when securing your WordPress application, with the help of the WordPress community this will expand and grow as the world changes.
