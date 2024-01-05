@@ -15,6 +15,8 @@ WordPress is awesome and super easy to install and set up, but its popularity an
 
 This site aims to help various types of WordPress users, from first time amature bloggers through to full time WordPress professionals. 
 
+[Edit this page here](https://github.com/wpappsec/www/blob/main/content/posts/about.md)
+
 ## WPAPPSEC Communities 
 
 Join us on one of the below platforms. 
@@ -62,4 +64,7 @@ This will be a list of WordPress tools and services providers that may help you 
 
 <!-- View the tools  -->
 <!-- Submit a tool  -->
+
+
+
 
