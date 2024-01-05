@@ -17,14 +17,14 @@ This site aims to help various types of wordPress users, from first time amature
 
 Join us on one of the below platforms. 
 
-https://twitter.com/wpappsec
-https://www.reddit.com/user/wpappsec/
-https://www.instagram.com/wpappsec/
-https://www.tiktok.com/@wpappsec 
-https://www.linkedin.com/groups/12953541/
+https://twitter.com/wpappsec   
+https://www.reddit.com/user/wpappsec/   
+https://www.instagram.com/wpappsec/   
+https://www.tiktok.com/@wpappsec    
+https://www.linkedin.com/groups/12953541/   
 
-https://github.com/wpappsec
-https://wpappsec.github.io/www/ 
+https://github.com/wpappsec   
+https://wpappsec.github.io/www/    
 
 
 ## WPAPPSEC Checklist
