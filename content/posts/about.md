@@ -7,7 +7,7 @@ menu: main
 ## About us
 
 
-![Logo etc](/artboard-10-4x.png)
+![Logo etc](artboard-10-4x.png)
 
 WPAPPSEC is an abbreviation of WordPress Application Security and is an organization set up to improve WordPress Application Security in the community.
 
