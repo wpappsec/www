@@ -187,9 +187,13 @@
 
   <div class="nav-scroller py-1 mb-3 border-bottom">
     <nav class="nav nav-underline justify-content-between">
-  <!--    <a class="nav-item nav-link link-body-emphasis active" href="#">Link</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Link</a>
-  -->
+  <!--    <a class="nav-item nav-link link-body-emphasis active" href="#">Link</a> -->
+      <a class="nav-item nav-link link-body-emphasis" href="#about">About Us</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#hosting">Hosting Guides</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#forums">WP Forums</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#appfirewall">App Firewall</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#dnsfirewall">DNS Firewall</a>
+      
     </nav>
   </div>
 </div>
@@ -216,7 +220,7 @@
           </a>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#3858e9"/><text x="50%" y="50%" fill="#fff" dy=".3em">WordPress.org</text></svg>
         </div>
       </div>
     </div>
@@ -232,7 +236,7 @@
           </a>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#3858e9"/><text x="50%" y="50%" fill="#fff" dy=".3em">WordPress.org</text></svg>
         </div>
       </div>
     </div>
@@ -245,13 +249,63 @@
       </h3>
 
       <article class="blog-post">
-        <h2 class="display-5 link-body-emphasis mb-1">Title</h2>
-        <p>text</p>
+        <h2 class="display-5 link-body-emphasis mb-1" ID="dnsfirewall">DNS Firewalls</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">CloudFlare</h3>
+        <p>The Cloudflare WAF claims to uses threat intelligence and machine learning powered by platform intelligence from the Cloudflare connectivity cloud to stop the newest threats, including zero-days.</p>
+        <a href="https://www.cloudflare.com/en-gb/application-services/products/waf/" class="btn btn-info" role="button">Read More</a>
+        <hr>
+        <h3 class="display-9 link-body-emphasis mb-1">Sucuri</h3>
+        <p>The Sucuri Website Application Firewall (WAF) claims to stops bad actors, speeds up load times, and increases your website availability.
+        </p>
+        <a href="https://sucuri.net/website-firewall/" class="btn btn-info" role="button">Read More</a>
+        <hr>
+      </article>
+ 
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1" ID="dnsfirewall" ID="appfirewall">Endpoint Application Firewalls</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">PatchStack</h3>
+        <p>PatchStack say vPatching, works a lot like a WAF: blocking known malicious requests but runs within the website itself. vPatching goes a step further, and can take into context information that only the website (such as WordPress) itself is aware of, like user authorization, software versions, etc… </p>
+        <a href="https://patchstack.com/wordpress-security/" class="btn btn-info" role="button">Read More</a>
+        <hr>
+        <h3 class="display-9 link-body-emphasis mb-1">WordFence</h3>
+        <p>WordFence say The Wordfence firewall also has a number of rules that match known attacks commonly seen and exploited in the wild. The patterns for these attacks are specific and require minimal processing in determining if the request matches. The firewall also uses a number of generic rules that use pattern matching to determine if a request appears to be malicious. These are designed to prevent hackers from exploiting “0-day” vulnerabilities for known types of attacks
+        </p>
+        <a href="https://www.wordfence.com/help/firewall/" class="btn btn-info" role="button">Read More</a>
         <hr>
       </article>
 
-    
 
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1" ID="malware">Malware scanning</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
+        <p>text</p>
+        <a href="https://www.malcare.com/features/malware-scanner/" class="btn btn-info" role="button">MalCare</a>
+        <a href="https://jetpack.com/upgrade/scan/" class="btn btn-info" role="button">JetPack Scan</a>
+        <a href="https://aiosplugin.com/features/" class="btn btn-info" role="button">AIOS</a>
+        <a href="https://www.wordfence.com/help/scan/" class="btn btn-info" role="button">WordFence</a>
+        <a href="https://cleantalk.org/help/security-malware-scanner" class="btn btn-info" role="button">CleanTalk</a>
+        <hr>
+        <h3 class="display-9 link-body-emphasis mb-1">Network or external scan</h3>
+        <p>text</p>
+        <a href="https://wpscan.com/" class="btn btn-info" role="button">WPScan</a>
+        <a href="https://sitecheck.sucuri.net/" class="btn btn-info" role="button">Sucuri</a>
+
+      
+        <a href="https://www.clamav.net/" class="btn btn-info" role="button">Clam AV</a>
+        <a href="https://imunify360.com/antivirus-plus/" class="btn btn-info" role="button">Imunify 360</a>
+
+        <hr>
+      </article>  
+
+      <!-- 
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Title</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Subtitle</h3>
+        <p>text</p>
+        <a href="link" class="btn btn-info" role="button">Read More</a>
+        <hr>
+      </article>  
+      -->
 
     <!--
       <article class="blog-post">
@@ -279,18 +333,20 @@
     <div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
         <div class="p-4 mb-3 bg-body-tertiary rounded">
-          <h4 class="fst-italic">About WPAPPSEC</h4>
-          <p class="mb-0">The content on this page is mostly compliled from posts and comments on the <a href="https://www.reddit.com/r/proWordPress/">WordPress sub Reddit</a>. 
+          <h4 class="fst-italic" ID="about">About WPAPPSEC</h4>
+          <p class="mb-0">The content on this page is mostly compliled from posts and comments on the <a href="https://www.reddit.com/r/Wordpress/">WordPress sub Reddit</a>. 
             
-           DM us on our <a href="https://www.reddit.com/r/proWordPress/">Reddit</a> user or ask for GitHub access if you want to contrubute!</p>
+           DM us on our <a href="https://www.reddit.com/user/wpappsec/">Reddit account</a> user or ask for GitHub access if you want to contrubute!</p>
         </div>
 
         <div>
-          <h4 class="fst-italic">Hosting Guides</h4>
+          <h4 class="fst-italic" ID="hosting">Hosting Guides</h4>
+         <p>List of hosts generated from the answers on this post in <a href="https://www.reddit.com/r/Wordpress/comments/1aukjzq/wpengine_competitors/">Reddit</a>. 
+         Many hosts have their own security features, you should consult your host to see what works best in your enviroment.</p> 
           <ul class="list-unstyled">
             <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://wpengine.com/support/wp-engines-security-environment/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0ecad4"/></svg>
                 <div class="col-lg-8">
                   <h6 class="mb-0">WordPress Site Security</h6>
                   <small class="text-body-secondary">WPEngine</small>
@@ -299,38 +355,225 @@
             </li>
             <li>
 
-              <!--
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+              
+
+              
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://www.hostinger.co.uk/tutorials/how-to-secure-wordpress">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#673DE6"/></svg>
                 <div class="col-lg-8">
-                  <h6 class="mb-0">This is another blog post title</h6>
-                  <small class="text-body-secondary">January 14, 2024</small>
+                  <h6 class="mb-0">How to Improve WordPress Security: 22 Methods to Protect Your Website</h6>
+                  <small class="text-body-secondary">Hostinger</small>
                 </div>
               </a>
             </li>
             <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://www.cloudways.com/blog/wordpress-security-issues-and-fixes/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#2e39bf"/></svg>
                 <div class="col-lg-8">
-                  <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6>
-                  <small class="text-body-secondary">January 13, 2024</small>
+                  <h6 class="mb-0">10 Common WordPress Security Issues And How to Fix Them    </h6>
+                  <small class="text-body-secondary">Cloudways</small>
                 </div>
               </a>
             </li>
-          -->
+        
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://kinsta.com/blog/wordpress-security/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#ff3f00"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">WordPress Security – 19 Steps to Lock Down Your Site</h6>
+                  <small class="text-body-secondary">Kinsta</small>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://runcloud.io/blog/vps-server-security-tips">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#f9bf3b"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">8+ Security Tips to Secure VPS Server in 2024? [Ultimate Guide] </h6>
+                  <small class="text-body-secondary">Runcloud</small>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://pressable.com/features/wordpress-malware-scanning-threat-monitoring/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#040047"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Worry-Free Malware Scanning and Threat Monitoring </h6>
+                  <small class="text-body-secondary">Pressable</small>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://wpmudev.com/project/wp-defender/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0059ff"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Advanced threat detection, prevention & multilayered security</h6>
+                  <small class="text-body-secondary">WPMUdev</small>
+                </div>
+              </a>
+            </li>
+            
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://help.krystal.io/wordpress/securing-and-hardening-wordpress">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#4d5a6d"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Securing and hardening WordPress</h6>
+                  <small class="text-body-secondary">Krystal</small>
+                </div>
+              </a>
+            </li>
+
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://rocket.net/blog/10-ways-to-increase-your-wordpress-security/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#3aabcc"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">10 ways to increase your WordPress security</h6>
+                  <small class="text-body-secondary">Rocket</small>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://www.bigscoots.com/how-to-improve-website-security/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#415aff"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">How to improve WordPress security</h6>
+                  <small class="text-body-secondary">Bigscoots</small>
+                </div>
+              </a>
+            </li>
+
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://www.nexcess.net/help/how-to-secure-your-wordpress-site/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#5A00CD"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">How to secure your WordPress site</h6>
+                  <small class="text-body-secondary">Nexcess</small>
+                </div>
+              </a>
+            </li>
+            
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://docs.pantheon.io/guides/wordpress-pantheon/wp-security">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#FFDC28"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Keep your WordPress on Pantheon site secure. </h6>
+                  <small class="text-body-secondary">Pantheon</small>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://www.siteground.co.uk/tutorials/wordpress/security/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#96cb4c"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">WordPress Security Tutorial</h6>
+                  <small class="text-body-secondary">Siteground</small>
+                </div>
+              </a>
+            </li>
+    
+            
+
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://instawp.com/wordpress-security-for-agencies-and-enterprises/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#11bf85"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Guide to WordPress Security [for Enterprises and Agencies]</h6>
+                  <small class="text-body-secondary">InstaWP</small>
+                </div>
+              </a>
+            </li>
+
+            
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://kb.wpx.net/how-can-i-keep-my-wordpress-sites-secure/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#96004E"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">How can I keep my WordPress sites secure? </h6>
+                  <small class="text-body-secondary">WPX</small>
+                </div>
+              </a>
+            </li>
+
+            
+
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://hostwp.io/blog/wordpress-security-checklist/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#7000F4"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">WordPress Security Checklist/</h6>
+                  <small class="text-body-secondary">Host WP</small>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://spinupwp.com/doc/server-site-security/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#8258D6"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Keeping Servers and Sites Secure </h6>
+                  <small class="text-body-secondary">SpinUpWP</small>
+                </div>
+              </a>
+            </li>
+
+            
+
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://gridpane.com/knowledgebase/security-strategies-and-tools/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#1BC590"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">WordPress Security Step by Step</h6>
+                  <small class="text-body-secondary">Gridpane</small>
+                </div>
+              </a>
+            </li>
+
+
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://docs.wpvip.com/security/for-wordpress/">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#a66915"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">WordPress security on VIP </h6>
+                  <small class="text-body-secondary">WP VIP</small>
+                </div>
+              </a>
+            </li>
+
+            
+<!-- 
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="link">
+                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Title</h6>
+                  <small class="text-body-secondary">Host</small>
+                </div>
+              </a>
+            </li>
+-->
+
+            
+            
+
           </ul>
         </div>
 
-        <div class="p-4">
-          <h4 class="fst-italic">Quick Links</h4>
-          <ol class="list-unstyled mb-0">
-            <li><a href="https://wordpress.org/documentation/article/faq-my-site-was-hacked/">WordPress.org Advice</a></li>
-            <li><a href="#">X</a></li>
-          </ol>
-        </div>
+
 
         <div class="p-4">
-          <h4 class="fst-italic">Forums</h4>
+          <h4 class="fst-italic" ID="forums">Forums</h4>
           <ol class="list-unstyled">
             <li><a href="https://www.reddit.com/r/Wordpress/">Reddit WordPress</a></li>
             <li><a href="https://www.reddit.com/r/proWordPress/">Reddit Pro WordPress</a></li>
