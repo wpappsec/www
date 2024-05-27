@@ -13,6 +13,8 @@
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -89,6 +91,7 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+
     </style>
 
     
@@ -191,8 +194,14 @@
       <a class="nav-item nav-link link-body-emphasis" href="#about">About Us</a>
       <a class="nav-item nav-link link-body-emphasis" href="#hosting">Hosting Guides</a>
       <a class="nav-item nav-link link-body-emphasis" href="#forums">WP Forums</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#appfirewall">App Firewall</a>
       <a class="nav-item nav-link link-body-emphasis" href="#dnsfirewall">DNS Firewall</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#appfirewall">App Firewall</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#malware">Malware Scanning</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#malwareremoval">Malware Removal</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#limitloginattempts">Limit Logins</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#passwordpolicy">Passwords Policy</a>
+
+
       
     </nav>
   </div>
@@ -202,6 +211,7 @@
   <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
     <div class="col-lg-12 px-0">
       <h1 class="display-4 fst-italic">WordPress Application Security</h1>
+      <img src="assets/logo.png" width="150" height="150" alt="" class="float-start m-3">  
       <p class="lead my-3">This web page has been set up to improve WordPress Application Security in the community. WordPress is awesome and super easy to install and set up, but its popularity and ease makes it a hot target for mischief. By beefing up your application security, you’re helping your users stay safe. This site aims to help various types of WordPress users, from first time amature bloggers through to full time WordPress professionals.</p>
      <!-- <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p> -->
     </div>
@@ -252,25 +262,25 @@
         <h2 class="display-5 link-body-emphasis mb-1" ID="dnsfirewall">DNS Firewalls</h2>
         <h3 class="display-9 link-body-emphasis mb-1">CloudFlare</h3>
         <p>The Cloudflare WAF claims to uses threat intelligence and machine learning powered by platform intelligence from the Cloudflare connectivity cloud to stop the newest threats, including zero-days.</p>
-        <a href="https://www.cloudflare.com/en-gb/application-services/products/waf/" class="btn btn-info" role="button">Read More</a>
+        <a href="https://www.cloudflare.com/en-gb/application-services/products/waf/" class="btn btn-outline-primary" role="button">CloudFlare</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Sucuri</h3>
         <p>The Sucuri Website Application Firewall (WAF) claims to stops bad actors, speeds up load times, and increases your website availability.
         </p>
-        <a href="https://sucuri.net/website-firewall/" class="btn btn-info" role="button">Read More</a>
+        <a href="https://sucuri.net/website-firewall/" class="btn btn-outline-primary" role="button">Securi</a>
         <hr>
       </article>
  
       <article class="blog-post">
-        <h2 class="display-5 link-body-emphasis mb-1" ID="dnsfirewall" ID="appfirewall">Endpoint Application Firewalls</h2>
+        <h2 class="display-5 link-body-emphasis mb-1" ID="appfirewall">Endpoint Application Firewalls</h2>
         <h3 class="display-9 link-body-emphasis mb-1">PatchStack</h3>
         <p>PatchStack say vPatching, works a lot like a WAF: blocking known malicious requests but runs within the website itself. vPatching goes a step further, and can take into context information that only the website (such as WordPress) itself is aware of, like user authorization, software versions, etc… </p>
-        <a href="https://patchstack.com/wordpress-security/" class="btn btn-info" role="button">Read More</a>
+        <a href="https://patchstack.com/wordpress-security/" class="btn btn-outline-primary" role="button">PatchStack</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">WordFence</h3>
         <p>WordFence say The Wordfence firewall also has a number of rules that match known attacks commonly seen and exploited in the wild. The patterns for these attacks are specific and require minimal processing in determining if the request matches. The firewall also uses a number of generic rules that use pattern matching to determine if a request appears to be malicious. These are designed to prevent hackers from exploiting “0-day” vulnerabilities for known types of attacks
         </p>
-        <a href="https://www.wordfence.com/help/firewall/" class="btn btn-info" role="button">Read More</a>
+        <a href="https://www.wordfence.com/help/firewall/" class="btn btn-outline-primary" role="button">Wordfence</a>
         <hr>
       </article>
 
@@ -278,31 +288,105 @@
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1" ID="malware">Malware scanning</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>text</p>
-        <a href="https://www.malcare.com/features/malware-scanner/" class="btn btn-info" role="button">MalCare</a>
-        <a href="https://jetpack.com/upgrade/scan/" class="btn btn-info" role="button">JetPack Scan</a>
-        <a href="https://aiosplugin.com/features/" class="btn btn-info" role="button">AIOS</a>
-        <a href="https://www.wordfence.com/help/scan/" class="btn btn-info" role="button">WordFence</a>
-        <a href="https://cleantalk.org/help/security-malware-scanner" class="btn btn-info" role="button">CleanTalk</a>
+        <p>Malware scanning is a process that detects malicious software on a system, there are various WordPress plugins that do this.
+        </p>
+          <a href="https://www.malcare.com/features/malware-scanner/" class="btn btn-outline-primary" role="button">MalCare</a>
+          <a href="https://jetpack.com/upgrade/scan/" class="btn btn-outline-primary" role="button">JetPack Scan</a>
+          <a href="https://aiosplugin.com/features/" class="btn btn-outline-primary" role="button">AIOS</a>
+          <a href="https://www.wordfence.com/help/scan/" class="btn btn-outline-primary" role="button">WordFence</a>
+          <a href="https://cleantalk.org/help/security-malware-scanner" class="btn btn-outline-primary" role="button">CleanTalk</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Network or external scan</h3>
-        <p>text</p>
-        <a href="https://wpscan.com/" class="btn btn-info" role="button">WPScan</a>
-        <a href="https://sitecheck.sucuri.net/" class="btn btn-info" role="button">Sucuri</a>
+        <p>An external scan could be run from another server or computer such as the WPScan CLI tool or server or network tools such as Imunify360.</p>
+          <a href="https://wpscan.com/" class="btn btn-outline-primary" role="button">WPScan</a>
+          <a href="https://sitecheck.sucuri.net/" class="btn btn-outline-primary" role="button">Sucuri</a>
+          <a href="https://www.clamav.net/" class="btn btn-outline-primary" role="button">Clam AV</a>
+          <a href="https://imunify360.com/antivirus-plus/" class="btn btn-outline-primary" role="button">Imunify 360</a>
+        <hr>
+      </article>
 
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1" ID="malwareremoval">Malware Removal</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugin</h3>
+        <p>Some WordPress plguins can check the integrity of core and plguin files as well as look for unscruplus files.</p>
+        <a href="https://www.wordfence.com/docs/how-to-clean-a-hacked-wordpress-site-using-wordfence/" class="btn btn-outline-primary" role="button">WordFence</a>
+        <a href="https://wordpress.org/plugins/gotmls/" class="btn btn-outline-primary" role="button">GOT MLS</a>
+        <hr>
+        <h3 class="display-9 link-body-emphasis mb-1">Service</h3>
+        <p>Some companies offer services to scan and remove malware on your behalf.</p>
+        <a href="https://www.malcare.com/features/malware-removal/" class="btn btn-outline-primary" role="button">MalCare</a>
+        <a href="https://sucuri.net/website-malware-removal/" class="btn btn-outline-primary" role="button">Sucuri</a>
+        <hr>
+      </article> 
+
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1" ID="mfa">Multi / two factor Authentication</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
+        <p>MFA requires multiple methods of authentication, this will cover possession, so somthing the user has as well as somthing the user knows</p>
+          <a href="https://www.wordfence.com/help/tools/two-factor-authentication/#how-to-enable-two-factor-authentication" class="btn btn-outline-primary" role="button">WordFence</a>
+          <a href="https://wordpress.org/plugins/two-factor/" class="btn btn-outline-primary" role="button">WordPress</a>
+          <a href="https://solidwp.com/security/wordpress-two-factor-authentication/" class="btn btn-outline-primary" role="button">SolidWP</a>
+          <a href="https://en-gb.wordpress.org/plugins/two-factor-authentication/" class="btn btn-outline-primary" role="button">TFA</a>
+          <a href="https://aiosplugin.com/features/" class="btn btn-outline-primary" role="button">AIOS Plugin</a>
+          <hr>
+      </article>  
       
-        <a href="https://www.clamav.net/" class="btn btn-info" role="button">Clam AV</a>
-        <a href="https://imunify360.com/antivirus-plus/" class="btn btn-info" role="button">Imunify 360</a>
 
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1" ID="userauditlogging">User audit logging</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
+        <p>User audit logging tracks user activities, enhancing accountability, detecting anomalies, aiding in system troubleshooting, and supporting regulatory compliance.</p>
+        <a href="https://wp-stream.com/" class="btn btn-outline-primary" role="button">WP Stream</a>
+        <hr>
+      </article> 
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Back Ups</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins and services</h3>
+        <p>Backup plugins provide automated data protection, ensuring website recovery in case of accidental deletions or unforeseen disasters. Many hosting companies also provide back up services. 
+        </p>
+        <a href="https://updraftplus.com/" class="btn btn-outline-primary" role="button">Updraft</a>
+        <a href="https://solidwp.com/backups/" class="btn btn-outline-primary" role="button">SolidWP</a>
+        <a href="https://jetpack.com/upgrade/backup/" class="btn btn-outline-primary" role="button">JetPack</a>
+        <a href="https://blogvault.net/" class="btn btn-outline-primary" role="button">BlogVault</a>
         <hr>
       </article>  
+      
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1" ID="limitloginattempts">Limit Login Attempts</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
+        <p>Limiting login attempts helps to prevent brute force attacks, where bad actos try numerous combinations to guess passwords programaticaly.
+        </p>
+        <a href="https://www.limitloginattempts.com/" class="btn btn-outline-primary" role="button">Limit Login Attempts</a>
+        <a href="https://www.wordfence.com/help/firewall/brute-force/" class="btn btn-outline-primary" role="button">WordFence</a>
+        
+        <hr>
+      </article> 
+
+
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1" ID="passwordpolicy">Password Policy</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
+        <p>Forceing strong passwords, and other policy measures, makes guessing passwords harder for humans and computers.</p>
+        <a href="https://solidwp.com/security/wordpress-password-security/" class="btn btn-outline-primary" role="button">Solid WP</a>
+        <a href="https://wordpress.org/plugins/password-policy-manager/" class="btn btn-outline-primary" role="button">Mini Orange</a>
+        <a href="https://www.wordfence.com/help/firewall/brute-force/" class="btn btn-outline-primary" role="button">WordFence</a>
+        <hr>
+      </article> 
+
+
+
+
 
       <!-- 
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1">Title</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Subtitle</h3>
         <p>text</p>
-        <a href="link" class="btn btn-info" role="button">Read More</a>
+        <a href="link" class="btn btn-outline-primary" role="button">Read More</a>
         <hr>
       </article>  
       -->
