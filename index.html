@@ -194,15 +194,12 @@
       <a class="nav-item nav-link link-body-emphasis" href="#about">About Us</a>
       <a class="nav-item nav-link link-body-emphasis" href="#hosting">Hosting Guides</a>
       <a class="nav-item nav-link link-body-emphasis" href="#forums">WP Forums</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#dnsfirewall">DNS Firewall</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#appfirewall">App Firewall</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#malware">Malware Scanning</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#malwareremoval">Malware Removal</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#dnsfirewall">Firewalls</a>
+      <!-- <a class="nav-item nav-link link-body-emphasis" href="#appfirewall">App Firewall</a>-->
+      <a class="nav-item nav-link link-body-emphasis" href="#malware">Malware</a>
+      <!-- <a class="nav-item nav-link link-body-emphasis" href="#malwareremoval">Malware Removal</a> -->
       <a class="nav-item nav-link link-body-emphasis" href="#limitloginattempts">Limit Logins</a>
       <a class="nav-item nav-link link-body-emphasis" href="#passwordpolicy">Passwords Policy</a>
-
-
-      
     </nav>
   </div>
 </div>
@@ -263,14 +260,21 @@
 
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1" ID="dnsfirewall">DNS Firewalls</h2>
+        <p>A DNS level fire wall will help stop malicious activity getting to your server in the first place taking some of the pressure off the host and application.</p>
         <h3 class="display-9 link-body-emphasis mb-1">CloudFlare</h3>
-        <p>The defacto DNS WAF solution, it even has a free plan, some managed hosts also offer CF protection as part of their product offering. The Cloudflare WAF uses threat intelligence and machine learning powered by platform intelligence from the Cloudflare connectivity cloud to stop the newest threats, including zero-days.</p>
+        <p>The defacto DNS WAF solution that even has a free plan, some managed hosts also offer CF protection as part of their product offering. The Cloudflare WAF uses threat intelligence and machine learning powered by platform intelligence from the Cloudflare connectivity cloud to stop the newest threats, including zero-days.</p>
         <a href="https://www.cloudflare.com/en-gb/application-services/products/waf/" class="btn btn-outline-primary" role="button">CloudFlare</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Sucuri</h3>
         <p>Owned by the webhost GoDaddy, the Sucuri Website Application Firewall (WAF) claims to stops bad actors, speeds up load times, and increases your website availability.
         </p>
         <a href="https://sucuri.net/website-firewall/" class="btn btn-outline-primary" role="button">Securi</a>
+        <hr>
+        <h3 class="display-9 link-body-emphasis mb-1">Others</h3>
+        <a href="https://www.akamai.com/products/app-and-api-protector" class="btn btn-outline-primary" role="button">Akami</a>
+        <a href="https://www.fastly.com/products/web-application-api-protection" class="btn btn-outline-primary" role="button">Fastly</a>
+        <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-awswaf.html" class="btn btn-outline-primary" role="button">CloudFront</a>
+        <a href="https://www.barracuda.com/products/application-protection/web-application-firewall" class="btn btn-outline-primary" role="button">Barracuda</a>
         <hr>
       </article>
  
@@ -285,11 +289,17 @@
         <p>PatchStack say vPatching, works a lot like a WAF: blocking known malicious requests but runs within the website itself. vPatching goes a step further, and can take into context information that only the website (such as WordPress) itself is aware of, like user authorization, software versions, etc… </p>
         <a href="https://patchstack.com/wordpress-security/" class="btn btn-outline-primary" role="button">PatchStack</a>
         <hr>
+        <!-- 
+        <h3 class="display-9 link-body-emphasis mb-1">Others</h3>
+        <a href="Link" class="btn btn-outline-primary" role="button">Name</a>
+        <hr>
+        -->
       </article>
 
 
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1" ID="malware">Malware and vunrability scanning</h2>
+        <p>It is a good idea to regulary scan your aplication to check for malware and known vunrabilities, this can be done with plugins, network tools and online web scanners.</p>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
         <p>Malware scanning is a process that detects malicious software on a system, there are various WordPress plugins that do this.
         </p>
@@ -300,15 +310,14 @@
           <a href="https://cleantalk.org/help/security-malware-scanner" class="btn btn-outline-primary" role="button">CleanTalk</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Network or external scan</h3>
-        <p>An external scan could be run from another server or computer such as the WPScan CLI tool or server or network tools such as Imunify360. This is helpful as somemalware can stop a plugin working effectivly.</p>
+        <p>An external scan could be run from another server or computer such as the WPScan CLI tool or server or network tools such as Imunify360. This is helpful as some malware can stop a plugin working effectivly.</p>
           <a href="https://wpscan.com/" class="btn btn-outline-primary" role="button">WPScan</a>
           <a href="https://www.qualys.com/apps/web-app-scanning/" class="btn btn-outline-primary" role="button">Qualys</a>
           <a href="https://www.clamav.net/" class="btn btn-outline-primary" role="button">Clam AV</a>
           <a href="https://imunify360.com/antivirus-plus/" class="btn btn-outline-primary" role="button">Imunify 360</a>
         <hr>
-
         <h3 class="display-9 link-body-emphasis mb-1">Web scan</h3>
-        <p>An external scan run from a web site.</p>
+        <p>An external scan run from a 3rd party online web site.</p>
           <a href="https://hackertarget.com/wordpress-security-scan/" class="btn btn-outline-primary" role="button">Hacker Target</a>
           <a href="https://sitecheck.sucuri.net/" class="btn btn-outline-primary" role="button">Sucuri</a>
           <hr>
@@ -316,6 +325,7 @@
 
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1" ID="malwareremoval">Malware Removal</h2>
+        <p>IF you find malware you will need to remove it, good luck!</p>
         <h3 class="display-9 link-body-emphasis mb-1">Plugin</h3>
         <p>Some WordPress plguins can check the integrity of core and plguin files as well as look for unscruplus files.</p>
         <a href="https://www.wordfence.com/docs/how-to-clean-a-hacked-wordpress-site-using-wordfence/" class="btn btn-outline-primary" role="button">WordFence</a>
@@ -334,7 +344,7 @@
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1" ID="mfa">Multi / two factor Authentication</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>MFA requires multiple methods of authentication, this will cover possession so somthing the user has, as well as somthing the user knows ie the password.</p>
+        <p>Multi or two factor authentication makes the login prcess require somthing the user knows (the password) as well as something the user has (the second factor), this makes it harder for someone to login that only knows the password and username.</p>
           <a href="https://www.wordfence.com/help/tools/two-factor-authentication/#how-to-enable-two-factor-authentication" class="btn btn-outline-primary" role="button">WordFence</a>
           <a href="https://wordpress.org/plugins/two-factor/" class="btn btn-outline-primary" role="button">WordPress</a>
           <a href="https://solidwp.com/security/wordpress-two-factor-authentication/" class="btn btn-outline-primary" role="button">SolidWP</a>
@@ -348,7 +358,7 @@
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1" ID="userauditlogging">User audit logging</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>User audit logging tracks user activities, enhancing accountability, detecting anomalies, aiding in system troubleshooting, and supporting regulatory compliance.</p>
+        <p>Logging user activitly helps with nonrepudiation, ie proving a user has done somthing that they have claim not to have done. It can also help with, debugging issues, complicance and testing.</p>
         <a href="https://wp-stream.com/" class="btn btn-outline-primary" role="button">WP Stream</a>
         <hr>
       </article> 
@@ -356,7 +366,7 @@
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1">Back Ups</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins and services</h3>
-        <p>Backup plugins provide automated data protection, ensuring website recovery in case of accidental deletions or unforeseen disasters. Many hosting companies also provide back up services. Make sure you are able to recover from the back up if your server is no longer avalible or it is wiped etc.
+        <p>Backup plugins provide automated backs ups, helping to ensure website recovery in case disasters. Many hosting companies also provide back up services. Make sure you are able to recover from the back up if your server is no longer avalible or it is wipped etc. Have a disaster recovery or business continuety plan.
         </p>
         <a href="https://updraftplus.com/" class="btn btn-outline-primary" role="button">Updraft</a>
         <a href="https://solidwp.com/backups/" class="btn btn-outline-primary" role="button">SolidWP</a>
@@ -368,11 +378,10 @@
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1" ID="limitloginattempts">Limit Login Attempts</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Limiting login attempts helps to prevent brute force attacks, where bad actos try numerous combinations to guess passwords programaticaly.
+        <p>Limiting login attempts helps to prevent brute force attacks, where bad actos try things like numerous combinations of credentisl to guess passwords programaticaly.
         </p>
         <a href="https://www.limitloginattempts.com/" class="btn btn-outline-primary" role="button">Limit Login Attempts</a>
         <a href="https://www.wordfence.com/help/firewall/brute-force/" class="btn btn-outline-primary" role="button">WordFence</a>
-        
         <hr>
       </article> 
 
@@ -381,10 +390,18 @@
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1" ID="passwordpolicy">Password Policy</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Forceing strong passwords, and other policy measures, makes guessing passwords harder for humans and computers.</p>
+        <!-- https://xkcd.com/936/ -->
+        <p>Having a password policy makes makes things like guessing passwords or obtaing password from data dumps harder for humans and computers.
+        We might want a password that is easy to remember but difficult to guess, or just difficult to guess</p>
         <a href="https://solidwp.com/security/wordpress-password-security/" class="btn btn-outline-primary" role="button">Solid WP</a>
         <a href="https://wordpress.org/plugins/password-policy-manager/" class="btn btn-outline-primary" role="button">Mini Orange</a>
         <a href="https://www.wordfence.com/help/firewall/brute-force/" class="btn btn-outline-primary" role="button">WordFence</a>
+        <hr>
+        <h3 class="display-9 link-body-emphasis mb-1">Password Manager</h3>
+        <p>You many need a password manager too, you may or may not not want it in the cloud</p>
+        <a href="https://keepass.info/" class="btn btn-outline-primary" role="button">KeyPass</a>
+        <a href="https://www.lastpass.com/" class="btn btn-outline-primary" role="button">Last Pass</a>
+        <!-- <a href="Link" class="btn btn-outline-primary" role="button">Name</a> --> 
         <hr>
       </article> 
 
@@ -427,15 +444,14 @@
 
     <div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
-        <div class="p-4 mb-3 bg-body-tertiary rounded">
+        <div class="p-4 mb-3 bg-body-secondary rounded">
           <h4 class="fst-italic" ID="about">About WPAPPSEC</h4>
           <p class="mb-0">The content on this page is mostly compliled from posts and comments on the <a href="https://www.reddit.com/r/Wordpress/">WordPress sub Reddit</a>. 
         </div>
 
         <div>
           <h4 class="fst-italic" ID="hosting">Hosting Guides</h4>
-         <p>List of hosts generated from the answers on this post in <a href="https://www.reddit.com/r/Wordpress/comments/1aukjzq/wpengine_competitors/">Reddit</a>. 
-         Many hosts have their own security features, you should consult your host to see what works best in your enviroment.</p> 
+         <p>Many hosts have their own security features, you should consult your host to see what works best in your enviroment.</p> 
           <ul class="list-unstyled">
             <li>
               <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://wpengine.com/support/wp-engines-security-environment/">
