@@ -7,6 +7,21 @@
     <meta name="author" content="WP APP SEC">
     <title>WP APP SEC - WordPress Application Security</title>
     <link rel="canonical" href="https://www.wpappsec.org">
+
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WPAPPSEC - WordPress Application Security" />
+    <meta property="og:description" content="This web page has been set up to improve WordPress Application Security in the community by collating and sharing links and resources." />
+    <meta property="og:url" content="https://www.wpappsec.org/" />
+    <meta property="og:site_name" content="WP APP SEC" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WPAPPSEC - WordPress Application Security" />
+    <meta name="twitter:description" content="This web page has been set up to improve WordPress Application Security in the community by collating and sharing links and resources." />
+    <meta property="og:image" content="OGimge.png" />
+    <meta property="og:image:width" content="5564" />
+    <meta property="og:image:height" content="3144" />
+    <meta property="og:image:type" content="image/jpeg" />
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -126,14 +141,14 @@
       <h1 class="display-4 fst-italic">WordPress Application Security</h1>
       <img src="assets/logo.png" width="150" height="150" alt="" class="float-start m-3">  
       <p class="lead my-3">This web page has been set up to improve WordPress Application Security in the community by collating and sharing links and resources.</p>
-      <p class="lead my-3">WordPress is awesome and super easy to install, set up and extend; but its popularity and ease makes it a hot target for both mischief and blured responsibilites in applying security. 
-                           Knowing what should be secured at the aplication level and or what should be secured at the OS and or network is hard for many to undertand, and can depend on your threat model, skill set and existing decisions (select host plugins etc ). 
+      <p class="lead my-3">WordPress is awesome and super easy to install, set up and extend; but its popularity and ease makes it a hot target for both mischief and blured responsibilites in applying security.</p> 
+      <p class="lead my-3">Knowing what should be secured at the aplication level and or what should be secured at the OS and or network is hard for many to undertand, and can depend on your threat model, skill set and existing decisions (select host plugins etc ). 
                            So just because a plugin can do somthing thats not to say it should or should not.</p> 
       <p class="lead my-3">By reading up on what can be done and where you can expand your knowledge and help your users stay safe.</p>
-      <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">Red Links go to Reddit Conversations</a>
-      <a href="#" class="btn btn-outline-secondary mb-2 btn-sm" role="button" target="_blank">Grey Links go to documentation</a>
-      <a href="#" class="btn btn-outline-primary mb-2 btn-sm" role="button" target="_blank">Blue Links go to WordPress Plugins</a>
-      <a href="#" class="btn btn-outline-warning mb-2 btn-sm" role="button" target="_blank">Orange Links go to Non WordPress solutions</a>
+      <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">Red Links go to Reddit conversations</a>
+      <a href="#" class="btn btn-outline-secondary mb-2 btn-sm" role="button" target="_blank">Grey links go to documentation</a>
+      <a href="#" class="btn btn-outline-primary mb-2 btn-sm" role="button" target="_blank">Blue links go to WordPress plugins</a>
+      <a href="#" class="btn btn-outline-warning mb-2 btn-sm" role="button" target="_blank">Orange links go to non WordPress solutions</a>
 
 
 
@@ -391,7 +406,7 @@
         <p>An external scan could be run from another server or computer such as the WPScan CLI tool or server or network tools such as Imunify360. This is helpful as some malware can stop a plugin working effectivly.</p>
 
         <blockquote class="blockquote ms-3 display-1">
-          <p class="mb-4 small fs-6">"If you hable múltiple sites I think can get very expensive easily, I decided to get immunify 360 and has good so far it will try to patch the sites also clean the sites if infected I really like it"</p>
+          <p class="mb-4 small fs-6">"If you hable multiple sites I think can get very expensive easily, I decided to get immunify 360 and has good so far it will try to patch the sites also clean the sites if infected I really like it"</p>
           <footer class="blockquote-footer">nakfil <cite title="Source Title"><a href="https://www.reddit.com/r/Wordpress/comments/1d2rkzq/comment/l634k9t/" target="_blank">Reddit</a></cite></footer>
         </blockquote>
 
@@ -431,6 +446,22 @@
         <hr>
       </article> 
 
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="userauditlogging">User audit logging</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>Logging user activitly helps with nonrepudiation, ie proving a user has done somthing that they have claim not to have done. It can also help with, debugging issues, complicance and testing. There are also server logs so its worth wile checking what can be done at the OS or host level.</p>
+        
+        <a href="https://www.reddit.com/r/Wordpress/comments/1d47qse/plugins_for_nonrepudiation_and_user_audit_logging/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
+       <hr>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
+        <p>WordPress has plugins that can help.</p>
+        <a href="https://wp-stream.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Stream</a>
+        <a href="https://wpadminaudit.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Admin Audit</a>
+        <a href="https://melapress.com/wordpress-activity-log/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Activity Log</a>
+        <a href="https://wordpress.org/plugins/logdash-activity-log/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Log Dash</a>
+        <hr>
+      </article> 
+ 
 
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="mfa">Multi / two factor Authentication</h2>
@@ -444,29 +475,23 @@
           <hr>
       </article>  
       
-      <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="userauditlogging">User audit logging</h2>
-        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Logging user activitly helps with nonrepudiation, ie proving a user has done somthing that they have claim not to have done. It can also help with, debugging issues, complicance and testing. There are also server logs so its worth wile checking what can be done at the OS or host level.</p>
-        
-        <a href="https://www.reddit.com/r/Wordpress/comments/1d47qse/plugins_for_nonrepudiation_and_user_audit_logging/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
        
-        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>WordPress has plugins that can help.</p>
-        <a href="https://wp-stream.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Stream</a>
-        <a href="https://wpadminaudit.com/" role="button" target="_blank">WP Admin Audit</a>
-        <a href="https://melapress.com/wordpress-activity-log/" role="button" target="_blank">WP Activity Log</a>
-        <a href="https://wordpress.org/plugins/logdash-activity-log/" role="button" target="_blank">Log Dash</a>
-        <hr>
-      </article> 
-    
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Limit login attempts</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>Limiting login attempts helps to prevent brute force attacks, where bad actors try things like numerous combinations of credentisl to guess passwords programaticaly. 
+           This can be done with a WAF, on the server, with CAPTCHA and with a WordPress plugin, so its a good idea to find out what your host is doing here.
+        </p>
+        <a href="https://patchstack.com/articles/limit-login-attempts-wordpress/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">PatchStack Guide</a>
+        <a href="https://www.fail2ban.org" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fail2Ban</a>
+        <a href="https://www.cloudflare.com/products/turnstile/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Turn Style</a>
+         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Limiting login attempts helps to prevent brute force attacks, where bad actos try things like numerous combinations of credentisl to guess passwords programaticaly.
+        <p>Some WordPress plugins offer this functionality.
         </p>
         <a href="https://www.limitloginattempts.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Limit Login Attempts</a>
         <a href="https://www.wordfence.com/help/firewall/brute-force/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
+        <a href="https://solidwp.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Solid WP</a>
         <hr>
       </article> 
 
@@ -474,13 +499,17 @@
 
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Theme and plugin updates</h2>
-        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Theme and plugins in the WordPress repository can be set to auto update, you will want to take backups and test beforehand. 
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>The core CMS, Themes and plugins in the WordPress repository can be set to auto update, this is a hot topic. 
+          Some perfer to autoupdate as many plugin related security fixes are automaticly applied without the need to log in.
+          Some think the risk of an updated plugin braking your site is a biiger risk. 
+          Either way you will want to decided whats best for you and your situation.
+          Many people like to take backups and test any changes on a test enviroment beofre they are relased to production. 
         </p>
-        <!-- <a href="https://www.reddit.com/r/Wordpress/comments/17spnef/whats_your_best_practices_for_installing_updates/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> --> 
-        <!-- https://www.reddit.com/r/Wordpress/comments/11npv56/should_i_disable_updates_for_wordpress_andor/ -->
-        
-        <a href="https://wordpress.org/documentation/article/plugins-themes-auto-updates/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordPress Updates</a>
+        <a href="https://www.reddit.com/r/Wordpress/comments/17spnef/whats_your_best_practices_for_installing_updates/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
+        <a href="https://www.reddit.com/r/Wordpress/comments/11npv56/should_i_disable_updates_for_wordpress_andor/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
+        <br>
+        <a href="https://wordpress.org/documentation/article/plugins-themes-auto-updates/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Updates</a>
         <hr>
       </article> 
 
