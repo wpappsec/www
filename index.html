@@ -201,6 +201,7 @@
 
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="firewall">Firewalls</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>Firewalls can be added at various points in your set up and what you should use depends on many factors that include the following. 
         What other tools you are using in your set up, how many sites you are managing, where and how they are managed and importanly what you have access too, expereince and competence working with.
       </p> 
@@ -222,8 +223,7 @@
         </blockquote>
 
         <hr>
-        <h4 class="display-8 link-body-emphasis mb-1">CloudFlare DNS WAF</h4>
-        <p>The defacto DNS WAF solution that even has a free plan, some managed hosts also offer CF protection as part of their product offering. The Cloudflare WAF uses threat intelligence and machine learning powered by platform intelligence from the Cloudflare connectivity cloud to stop the newest threats, including zero-days.</p>
+        <p>The defacto DNS WAF solution is CloudFlare, they have a free plan, some managed hosts also offer CF protection as part of their product offering. The Cloudflare WAF uses threat intelligence and machine learning powered by platform intelligence from the Cloudflare connectivity cloud to stop the newest threats, including zero-days.</p>
         
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"I'm using Cloudflare for many sites, and am a fan of the service. It's nice that it blocks so many bots and other nasty crap before it even touches the web server. Unfortunately, not everyone wants to, or can give up control of their DNS to Cloudflare. We have a lot of banks and hospitals as clients who it's not a good fit for."</p>
@@ -231,41 +231,30 @@
         </blockquote>
 
         <a href="https://www.cloudflare.com/en-gb/application-services/products/waf/" class="btn btn-outline-warning mb-2" role="button" target="_blank">CloudFlare</a>
-        <a href="https://developers.cloudflare.com/fundamentals/basic-tasks/protect-your-origin-server/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">Protect Origin Servers</a>
-        <a href="https://hosting.bluesix.co/cloudflare-waf-rules/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">BlueSix CF Settings</a>
-
-        <hr>
-        <h4 class="display-8 link-body-emphasis mb-1">Other DNS WAF</h4>
-        <p>There are many other solutions, it is worth having a look around.</p>
-
         <a href="https://sucuri.net/website-firewall/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Securi</a>
         <a href="https://www.akamai.com/products/app-and-api-protector" class="btn btn-outline-warning mb-2" role="button" target="_blank">Akami</a>
         <a href="https://www.fastly.com/products/web-application-api-protection" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fastly</a>
         <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-awswaf.html" class="btn btn-outline-warning mb-2" role="button" target="_blank">CloudFront</a>
         <a href="https://www.barracuda.com/products/application-protection/web-application-firewall" class="btn btn-outline-warning mb-2" role="button" target="_blank">Barracuda</a>
-        
+        <a href="https://developers.cloudflare.com/fundamentals/basic-tasks/protect-your-origin-server/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">Protect Origin Servers</a>
+        <a href="https://hosting.bluesix.co/cloudflare-waf-rules/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">BlueSix CF Settings</a>
+       
         <hr>
         <h3 class="display-6 link-body-emphasis mb-1">OS and host WAF</h3>     
-        <p>A WAF can be installed on the operating system and many hosts will have a WAF running on their infrastructre, you should ask your host.</p>
+        <p>A WAF can be installed on the operating system and many hosts will have a WAF running on their infrastructre, you should ask your host.</p>        
+        <p>The Ninja product has both a WordPress plguin and a PHP aplication depending on your needs and is a popular recomendation.</p>
+
         <blockquote class="blockquote ms-3 display-1">
            <p class="mb-4 small fs-6">"Any decent host has DDOS protection and Firewall Tool. If you are at some of EIG hosts or at shared plan, it's hard to be isolated from overflow attacks, no WAF can help you there."</p>
            <footer class="blockquote-footer">retr00ne <cite title="Source Title"><a href="https://www.reddit.com/r/Wordpress/comments/1d2rkzq/comment/l63pc0f/" target="_blank">Reddit</a></cite></footer>
         </blockquote>
-        
-        <hr>
-        <h4 class="display-8 link-body-emphasis mb-1">Ninja</h4>
-        <p>The Ninja product has both a WordPress plguin and a PHP aplication depending on your needs.</p>
-        <a href="https://nintechnet.com/ninjafirewall/pro-edition/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Ninja PHP app</a>
-        
-        <hr>
-        <h4 class="display-8 link-body-emphasis mb-1">Other OS and host WAF</h4>
-        <p>There are other solutions, it is worth having a look around.</p>
 
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"Sysadmins hosting WordPress should run modsecurity."</p>
           <footer class="blockquote-footer">imacarpet <cite title="Source Title"><a href="https://www.reddit.com/r/Wordpress/comments/1d2rkzq/comment/l653vmg/" target="_blank">Reddit</a></cite></footer>
         </blockquote>
         
+        <a href="https://nintechnet.com/ninjafirewall/pro-edition/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Ninja PHP app</a>
         <a href="https://perishablepress.com/8g-firewall/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Perishable Press</a>
         <a href="http://www.fail2ban.org/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fail2ban</a>
         <a href="https://coreruleset.org/" class="btn btn-outline-warning mb-2" role="button" target="_blank">OSWAP modsecurity CRS</a>
@@ -304,6 +293,8 @@
       <article class="blog-post">
         <hr>
         <h2 class="display-2 link-body-emphasis mb-1" ID="passwordpolicy">Password policies and Password Managers</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+
          <!-- https://xkcd.com/936/ -->
         <p>Having a password policy makes makes things like guessing passwords or obtaing password from data dumps harder for humans and computers.
         We might want a password that is easy to remember but difficult to guess, or just difficult to guess</p>
@@ -390,6 +381,7 @@
       <article class="blog-post">
         <hr>
         <h2 class="display-2 link-body-emphasis mb-1" ID="malware">Malware and vunrability scanning</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>It is a good idea to regulary scan your aplication to check for malware and known vunrabilities, this can be done with plugins, network tools and online web scanners.</p>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
@@ -424,6 +416,7 @@
 
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="malwareremoval">Malware removal</h2>
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>If you find malware you will need to remove it and then fix the root cause. You might be able to do this with a plugin but you may need help from your host or systems administrator or failing that a WordPress or security expert. How you fix the issue will depend on your set up, access and skill set as well as the root cause and remediation required.
         </p>
         <a href="https://www.reddit.com/r/Wordpress/comments/1c4s3zd/malware_removal/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
@@ -465,9 +458,11 @@
 
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="mfa">Multi / two factor Authentication</h2>
-        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>Multi or two factor authentication makes the login prcess require somthing the user knows (the password) as well as something the user has (the second factor), this makes it harder for someone to login that only knows the password and username.</p>
-          <a href="https://www.wordfence.com/help/tools/two-factor-authentication/#how-to-enable-two-factor-authentication" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3> 
+        <p>WordPress has many plugins that offer this functionality. </p>
+        <a href="https://www.wordfence.com/help/tools/two-factor-authentication/#how-to-enable-two-factor-authentication" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
           <a href="https://wordpress.org/plugins/two-factor/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordPress</a>
           <a href="https://solidwp.com/security/wordpress-two-factor-authentication/" class="btn btn-outline-primary mb-2" role="button" target="_blank">SolidWP</a>
           <a href="https://aiosplugin.com/features/" class="btn btn-outline-primary mb-2" role="button" target="_blank">AIOS Plugin</a>
