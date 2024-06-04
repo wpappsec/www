@@ -139,12 +139,19 @@
   <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
     <div class="col-lg-12 px-0">
       <h1 class="display-4 fst-italic">WordPress Application Security</h1>
-      <img src="assets/logo.png" width="150" height="150" alt="" class="float-start m-3">  
-      <p class="lead my-3">This web page has been set up to improve WordPress Application Security in the community by collating and sharing links and resources.</p>
-      <p class="lead my-3">WordPress is awesome and super easy to install, set up and extend; but its popularity and ease makes it a hot target for both mischief and blured responsibilites in applying security.</p> 
-      <p class="lead my-3">Knowing what should be secured at the aplication level and or what should be secured at the OS and or network is hard for many to undertand, and can depend on your threat model, skill set and existing decisions (select host plugins etc ). 
-                           So just because a plugin can do somthing thats not to say it should or should not.</p> 
-      <p class="lead my-3">By reading up on what can be done and where you can expand your knowledge and help your users stay safe.</p>
+      <img src="assets/logo.png" width="150" height="150" alt="" class="float-end m-3">  
+      <p class="lead my-3">WordPress is awesome, it's super easy find a host with a one click install, 
+                           so you can be up and running in minuets. 
+                           These low entry barriers along with it's popularity and ease 
+                           makes WordPress suseptiable to mistakes and micheif.</p> 
+      <p class="lead my-3">There are a poletheria of solutions out there 
+                           but knowing what should be secured, in what way and by who 
+                           is another mine feild to navigate.</p> 
+      <p class="lead my-3">Through collating and sharing links and resources 
+                           we aim to improve WordPress Application Security.</p>                           
+      <p class="lead my-3">This page has links on topics on and around WordPress security subjects 
+                           to provide you with the context and further reading 
+                           to help demistify this complex area.</p>
       <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">Red Links go to Reddit conversations</a>
       <a href="#" class="btn btn-outline-secondary mb-2 btn-sm" role="button" target="_blank">Grey links go to documentation</a>
       <a href="#" class="btn btn-outline-primary mb-2 btn-sm" role="button" target="_blank">Blue links go to WordPress plugins</a>
@@ -194,11 +201,17 @@
       </h3>
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="firewall">Firewalls</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="firewall">Web Application Firewalls</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Firewalls can be added at various points in your set up and what you should use depends on many factors that include the following. 
-        What other tools you are using in your set up, how many sites you are managing, where and how they are managed and importanly what you have access too, expereince and competence working with.
-      </p> 
+
+
+        <p>Firewalls can monitor, filter and block traffic traffic between end users and your aplication,
+           these can be added at the network, host or aplication level.
+           You may already be using a solution that provides some protection 
+           so consider what you already have in place.
+           There are pros and cons to each combination 
+           so think about what is right for you and your users. 
+        </p> 
       
       <blockquote class="blockquote ms-3 display-1">
         <p class="mb-4 small fs-6">"If you don't use a waf you're doing it wrong"</p>
@@ -206,10 +219,15 @@
       </blockquote>
       
       <a href="https://www.reddit.com/r/Wordpress/comments/1d2rkzq/what_are_your_thoughts_on_wafs/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
+      <a href="https://en.wikipedia.org/wiki/Web_application_firewall" class="btn btn-outline-secondary mb-2 btn-sm" role="button" target="_blank">Wikipedia - WAF</a>
+       
+
+
 
       <hr>
-      <h3 class="display-6 link-body-emphasis mb-1">DNS WAF</h3>
-        <p>A DNS level fire wall will help stop malicious activity getting to your server in the first place taking some of the pressure off the host and application.</p>
+      <h3 class="display-6 link-body-emphasis mb-1">Domain Name System WAF</h3>
+        <p>A DNS level firewall will help stop malicious activity getting to your server in the first place,
+          potentialy taking some of the pressure off your host and application.</p>
 
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"The benefit of using cloudflare is that their WAF doesn't use your servers resources. A simple way to take down a web server is to flood it with traffic."</p>
@@ -217,7 +235,11 @@
         </blockquote>
 
         <hr>
-        <p>The defacto DNS WAF solution is CloudFlare, they have a free plan, some managed hosts also offer CF protection as part of their product offering. The Cloudflare WAF uses threat intelligence and machine learning powered by platform intelligence from the Cloudflare connectivity cloud to stop the newest threats, including zero-days.</p>
+        <p>A popular DNS WAF solution is CloudFlare, 
+          they are widely used and have a free plan. 
+          Some managed hosts also offer a DNS WAF as part of their product offering,
+          so it would be wise to see if your host is helping too.
+        </p>
         
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"I'm using Cloudflare for many sites, and am a fan of the service. It's nice that it blocks so many bots and other nasty crap before it even touches the web server. Unfortunately, not everyone wants to, or can give up control of their DNS to Cloudflare. We have a lot of banks and hospitals as clients who it's not a good fit for."</p>
@@ -234,9 +256,12 @@
         <a href="https://hosting.bluesix.co/cloudflare-waf-rules/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">BlueSix CF Settings</a>
        
         <hr>
-        <h3 class="display-6 link-body-emphasis mb-1">OS and host WAF</h3>     
-        <p>A WAF can be installed on the operating system and many hosts will have a WAF running on their infrastructre, you should ask your host.</p>        
-        <p>The Ninja product has both a WordPress plguin and a PHP aplication depending on your needs and is a popular recomendation.</p>
+        <h3 class="display-6 link-body-emphasis mb-1">Host or operating system WAF</h3>     
+        <p>A WAF can be installed on the operating system or server,
+          many hosts will have a WAF running on their servers, 
+          you should ask your host to see how they are helping.
+          The Ninja WAF product has both a WordPress plugin and a PHP aplication 
+          depending on your needs.</p>
 
         <blockquote class="blockquote ms-3 display-1">
            <p class="mb-4 small fs-6">"Any decent host has DDOS protection and Firewall Tool. If you are at some of EIG hosts or at shared plan, it's hard to be isolated from overflow attacks, no WAF can help you there."</p>
@@ -254,9 +279,14 @@
         <a href="https://coreruleset.org/" class="btn btn-outline-warning mb-2" role="button" target="_blank">OSWAP modsecurity CRS</a>
         
         <hr>
-        <h3 class="display-6 link-body-emphasis mb-1">Aplication WAF</h3>
+        <h3 class="display-6 link-body-emphasis mb-1">Application WAF</h3>
         <h4 class="display-8 link-body-emphasis mb-1">Plugins</h4>
-        <p>WordFence have a huge number of downlaods in the WordPress repository, and on those numbers its the most used plugin WAF. WordFence say their firewall also has a number of rules that match known attacks commonly seen and exploited in the wild. The patterns for these attacks are specific and require minimal processing in determining if the request matches. The firewall also uses a number of generic rules that use pattern matching to determine if a request appears to be malicious. These are designed to prevent hackers from exploiting “0-day” vulnerabilities for known types of attacks
+        <p>WordFence have a huge number of downlaods in the WordPress repository, 
+          and on those numbers its the most used plugin based WAF.
+          PatchStack is also a widly dicussed and praised plugin in the Redit foum.
+          WordPress plugins often come bundled with has many features, 
+          so you might already be using a plugin that has a WAF and not even know it!
+          It's a good idea to audit your plugins to see where your feaures overlap or have gaps.
         </p>
 
         <blockquote class="blockquote ms-3 display-1">
@@ -290,8 +320,10 @@
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
 
          <!-- https://xkcd.com/936/ -->
-        <p>Having a password policy makes makes things like guessing passwords or obtaing password from data dumps harder for humans and computers.
-        We might want a password that is easy to remember but difficult to guess, or just difficult to guess</p>
+        <p>Having a password policy makes makes things like guessing passwords 
+          or obtaing password from data dumps harder for both humans and computers.
+          We might want a password that is easy to remember but difficult to guess, 
+          or just difficult to guess!</p>
         <a href="https://wordpress.org/documentation/article/password-best-practices/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress.org Guide</a>
         <br>
         <a href="https://www.reddit.com/r/Wordpress/comments/1d3l2ax/what_are_your_thoughts_on_password_policies_and/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
@@ -318,7 +350,8 @@
         <a href="https://www.wordfence.com/help/firewall/brute-force/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Password manager</h3>
-        <p>You many need a password manager too, you may or may not not want it in the cloud</p>
+        <p>You many need a password manager too, 
+          you may or may not not want it back up and synced in the cloud too.</p>
 
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"If 'the cloud' is a worry for some reason with bitwarden, you can self-host it officially (not to be confused with vaultwarden"</p>
@@ -338,7 +371,13 @@
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1">Back ups</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Many hosting companies also provide back up services, so consider that when making a plan. Do make sure you are able to recover from the back up if your server is no longer avalible or it is wiped etc, think about where you will safely and securly store the back up. Have a disaster recovery or business continuety plan and test it.
+        <p>Many hosting companies also provide back up services, 
+          so consider that when making a plan. 
+          You will also need to be able to recover your site from the back up, 
+          so consider what would happen if your server is no longer avalible.
+          It would also be good to think about where you will safely and securly store the back up,
+          as back up files usualy contain lots of sensitive data. 
+          Consider having a tested disaster recovery or business continuety plan.
         </p>
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"Schedule daily, weekly or monthly backups. Send backups to remote servers (AWS S3, Dropbox, Google Drive) or your local machine."</p>
@@ -350,7 +389,8 @@
         <hr>
 
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Backup plugins provide automated backs ups, helping to ensure website recovery in case disasters.
+        <p>If you dont have a host or server set up that provides adequate back ups then  
+          you may wish to use a backup plugin to provide automated backs ups.
           </p>
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"I don't like AIO because it uses a proprietary zip format. I've used Updraft for over 10 years, on hundreds of sites, its never failed me."</p>
@@ -376,10 +416,12 @@
         <hr>
         <h2 class="display-2 link-body-emphasis mb-1" ID="malware">Malware and vunrability scanning</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>It is a good idea to regulary scan your aplication to check for malware and known vunrabilities, this can be done with plugins, network tools and online web scanners.</p>
+        <p>It is a good idea to scan your aplication to check for malware and known vunrabilities, 
+          this can be done with plugins, aplications and online web scanners.</p>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Malware scanning is a process that detects malicious software on a system, there are various WordPress plugins that do this.
+        <p>Malware scanning is a process that detects malicious software on a system, 
+          there are various WordPress plugins that can help do this.
         </p>
           <a href="https://www.malcare.com/features/malware-scanner/" class="btn btn-outline-primary mb-2" role="button" target="_blank">MalCare</a>
           <a href="https://jetpack.com/upgrade/scan/" class="btn btn-outline-primary mb-2" role="button" target="_blank">JetPack Scan</a>
@@ -389,7 +431,8 @@
           <a href="https://nintechnet.com/ninjascanner/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Ninja</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Network or external scan</h3>
-        <p>An external scan could be run from another server or computer such as the WPScan CLI tool or server or network tools such as Imunify360. This is helpful as some malware can stop a plugin working effectivly.</p>
+        <p>An external scan such as the WPScan CLI tool or Imunify360 could be run from a computer or server. 
+          This could be helpful as some malware can stop a plugin or aplication working effectivly.</p>
 
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"If you hable multiple sites I think can get very expensive easily, I decided to get immunify 360 and has good so far it will try to patch the sites also clean the sites if infected I really like it"</p>
@@ -411,7 +454,12 @@
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="malwareremoval">Malware removal</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>If you find malware you will need to remove it and then fix the root cause. You might be able to do this with a plugin but you may need help from your host or systems administrator or failing that a WordPress or security expert. How you fix the issue will depend on your set up, access and skill set as well as the root cause and remediation required.
+        <p>If you find malware you will need to remove it and then fix the root cause. 
+          You might be able to do this with a plugin or two as well as some help from your host.
+          You may need expert help from a sysadmin or a WordPress or security expert. 
+          How you fix the issue will depend on your set up, access and skill set 
+          as well as the root cause and remediation required.
+          You may need to set up a new or clean server and re build everything from clean sources.  
         </p>
         <a href="https://www.reddit.com/r/Wordpress/comments/1c4s3zd/malware_removal/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
         <br>
@@ -420,7 +468,9 @@
 
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Plugin</h3>
-        <p>Some WordPress plguins can check the integrity of core and plguin files as well as look for unscruplus or modified files.</p>
+        <p>Some WordPress plguins can check the integrity of core and plguin files 
+          as well as look for unscruplus or modified files. 
+          Some users like to run multiple tools as some tools can find issues others can't.</p>
         <a href="https://www.wordfence.com/docs/how-to-clean-a-hacked-wordpress-site-using-wordfence/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
         <a href="https://wordpress.org/plugins/gotmls/" class="btn btn-outline-primary mb-2" role="button" target="_blank">GOT MLS</a>
         <a href="https://jetpack.com/blog/wordpress-malware-removal/" class="btn btn-outline-primary mb-2" role="button" target="_blank">JetPack</a>
@@ -436,7 +486,11 @@
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="userauditlogging">User audit logging</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Logging user activitly helps with nonrepudiation, ie proving a user has done somthing that they have claim not to have done. It can also help with, debugging issues, complicance and testing. There are also server logs so its worth wile checking what can be done at the OS or host level.</p>
+        <p>Logging user activitly helps with nonrepudiation, 
+          ie proving a user has done somthing that they have claim not to have done. 
+          It can also help with, debugging issues, complicance and testing. 
+          There are also server logs so its worth wile checking what can be done 
+          at the OS or host level too.</p>
         
         <a href="https://www.reddit.com/r/Wordpress/comments/1d47qse/plugins_for_nonrepudiation_and_user_audit_logging/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
        <hr>
@@ -453,7 +507,9 @@
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="mfa">Multi / two factor Authentication</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Multi or two factor authentication makes the login prcess require somthing the user knows (the password) as well as something the user has (the second factor), this makes it harder for someone to login that only knows the password and username.</p>
+        <p>Multi or two factor authentication makes the login prcess require somthing the user knows
+           (the password) as well as something the user has (the second factor), 
+           this makes it harder for someone to login that only knows the password and username.</p>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3> 
         <p>WordPress has many plugins that offer this functionality. </p>
         <a href="https://www.wordfence.com/help/tools/two-factor-authentication/#how-to-enable-two-factor-authentication" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
@@ -468,8 +524,10 @@
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Limit login attempts</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Limiting login attempts helps to prevent brute force attacks, where bad actors try things like numerous combinations of credentisl to guess passwords programaticaly. 
-           This can be done with a WAF, on the server, with CAPTCHA and with a WordPress plugin, so its a good idea to find out what your host is doing here.
+        <p>Limiting login attempts helps to prevent brute force attacks, 
+          where bad actors try things like numerous combinations of credentisl to guess passwords programaticaly. 
+           This can be done with a WAF, on the server, with CAPTCHA and or with a WordPress plugin, 
+           so its a good idea to find out what your host is doing here first.
         </p>
         <a href="https://patchstack.com/articles/limit-login-attempts-wordpress/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">PatchStack Guide</a>
         <a href="https://www.fail2ban.org" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fail2Ban</a>
@@ -542,12 +600,12 @@
       <div class="position-sticky" style="top: 2rem;">
         <div class="p-4 mb-3 bg-body-secondary rounded">
           <h4 class="fst-italic" ID="about">About WPAPPSEC</h4>
-          <p class="mb-0">The content on this page is mostly compliled from posts and comments on the <a href="https://www.reddit.com/r/Wordpress/">WordPress sub Reddit</a>. 
+          <p class="mb-0">The content on this page is mostly compliled from posts and comments on the <a href="https://www.reddit.com/r/Wordpress/">WordPress sub Reddit, thanks everyone!</a>. 
         </div>
 
         <div>
           <h4 class="fst-italic" ID="hosting">Hosting Guides</h4>
-         <p>Many hosts have their own security features, you should consult your host to see what works best in your enviroment.</p> 
+         <p>Many hosts have their own security features, you should consult your host to see what they are doing and what aditional steps will work best in your enviroment.</p> 
           <ul class="list-unstyled">
             <li>
               <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://wpengine.com/support/wp-engines-security-environment/">
@@ -749,6 +807,10 @@
           <h4 class="fst-italic" ID="contributors">Contributors</h4>
           <ol class="list-unstyled">
             <li><a href="https://github.com/ManikinSaute">ManikinSaute</a></li>
+            <li><a href="https://github.com/AmnestyAM">AmnestyAM</a></li>
+
+
+            
             <!-- <li><a href="personalURL">Personal Name</a></li> -->
           </ol>
         </div>
