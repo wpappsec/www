@@ -154,18 +154,15 @@
     <div class="col-lg-12 px-0">
       <h1 class="display-4 fst-italic">WordPress Application Security</h1>
       <img src="assets/logo.png" width="150" height="150" alt="" class="float-end m-3">  
-      <p class="lead my-3">WordPress is awesome, it's super easy find a host with a one click install, 
+      <p class="lead my-3">WordPress is awesome, it's super easy to host with a one click install, 
                            so you can be up and running in minuets. 
-                           These low entry barriers along with it's popularity and ease 
-                           makes WordPress suseptiable to mistakes and micheif.</p> 
-      <p class="lead my-3">There are a poletheria of solutions out there 
-                           but knowing what should be secured, in what way and by who 
-                           is another mine feild to navigate.</p> 
+                           These low barriers to entry along with it's popularity 
+                           make WordPress suseptiable to mistakes and micheif.</p> 
+        <p class="lead my-3">To secure your WordPress site there are a poletheria of solutions to choose from  
+                           but knowing which ones to use, how it should be configured 
+                           and who should do this work is complicated.</p> 
       <p class="lead my-3">Through collating and sharing links and resources 
-                           we aim to improve WordPress Application Security.</p>                           
-      <p class="lead my-3">This page has links on topics on and around WordPress security subjects 
-                           to provide you with the context and further reading 
-                           to help demistify this complex area.</p>
+                           we aim to improve WordPress Application Security.</p>  
       <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">Red Links go to Reddit conversations</a>
       <a href="#" class="btn btn-outline-secondary mb-2 btn-sm" role="button" target="_blank">Grey links go to documentation</a>
       <a href="#" class="btn btn-outline-primary mb-2 btn-sm" role="button" target="_blank">Blue links go to WordPress plugins</a>
@@ -266,6 +263,7 @@
         <a href="https://www.fastly.com/products/web-application-api-protection" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fastly</a>
         <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-awswaf.html" class="btn btn-outline-warning mb-2" role="button" target="_blank">CloudFront</a>
         <a href="https://www.barracuda.com/products/application-protection/web-application-firewall" class="btn btn-outline-warning mb-2" role="button" target="_blank">Barracuda</a>
+        <a href="https://www.quic.cloud/quic-cloud-services-and-features/security/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Quic Cloud</a>
         <a href="https://developers.cloudflare.com/fundamentals/basic-tasks/protect-your-origin-server/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">Protect Origin Servers</a>
         <a href="https://hosting.bluesix.co/cloudflare-waf-rules/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">BlueSix CF Settings</a>
        
@@ -274,8 +272,8 @@
         <p>A WAF can be installed on the operating system or server,
           many hosts will have a WAF running on their servers, 
           you should ask your host to see how they are helping.
-          The Ninja WAF product has both a WordPress plugin and a PHP aplication 
-          depending on your needs.</p>
+          Using a WAF at the network VS the aplication or host will have pros and cons to consider. 
+          </p>
 
         <blockquote class="blockquote ms-3 display-1">
            <p class="mb-4 small fs-6">"Any decent host has DDOS protection and Firewall Tool. If you are at some of EIG hosts or at shared plan, it's hard to be isolated from overflow attacks, no WAF can help you there."</p>
@@ -296,7 +294,7 @@
         <h3 class="display-6 link-body-emphasis mb-1">Application WAF</h3>
         <h4 class="display-8 link-body-emphasis mb-1">Plugins</h4>
         <p>WordFence have a huge number of downlaods in the WordPress repository, 
-          and on those numbers its the most used plugin based WAF.
+          and on those numbers it's the most used plugin based WAF.
           PatchStack is also a widly dicussed and praised plugin in the Redit foum.
           WordPress plugins often come bundled with has many features, 
           so you might already be using a plugin that has a WAF and not even know it!
@@ -403,7 +401,7 @@
         <hr>
 
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>If you dont have a host or server set up that provides adequate back ups then  
+        <p>If you do not have a host or server set up that provides adequate back ups then  
           you may wish to use a backup plugin to provide automated backs ups.
           </p>
         <blockquote class="blockquote ms-3 display-1">
@@ -431,7 +429,8 @@
         <h2 class="display-2 link-body-emphasis mb-1" ID="malware">Malware and vunrability scanning</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>It is a good idea to scan your aplication to check for malware and known vunrabilities, 
-          this can be done with plugins, aplications and online web scanners.</p>
+          this can be done with plugins, aplications and online web scanners. 
+          Your host may already be doing this for you so it's a good idea to find out what they are doing for you.</p>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
         <p>Malware scanning is a process that detects malicious software on a system, 
@@ -443,7 +442,8 @@
           <a href="https://www.wordfence.com/help/scan/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
           <a href="https://cleantalk.org/help/security-malware-scanner" class="btn btn-outline-primary mb-2" role="button" target="_blank">CleanTalk</a>
           <a href="https://nintechnet.com/ninjascanner/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Ninja</a>
-        <hr>
+          <a href="https://quttera.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Quttera</a>
+          <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Network or external scan</h3>
         <p>An external scan such as the WPScan CLI tool or Imunify360 could be run from a computer or server. 
           This could be helpful as some malware can stop a plugin or aplication working effectivly.</p>
@@ -457,11 +457,14 @@
           <a href="https://www.qualys.com/apps/web-app-scanning/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Qualys</a>
           <a href="https://www.clamav.net/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Clam AV</a>
           <a href="https://imunify360.com/antivirus-plus/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Imunify 360</a>
-        <hr>
+          <a href="https://quttera.com/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Quttera</a>
+          <a href="https://developers.google.com/search/docs/monitor-debug/security/malware" class="btn btn-outline-warning mb-2" role="button" target="_blank">Google Search Console</a>
+          <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Web scan</h3>
         <p>An external scan run from a 3rd party online web site.</p>
           <a href="https://hackertarget.com/wordpress-security-scan/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Hacker Target</a>
           <a href="https://sitecheck.sucuri.net/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Sucuri</a>
+          <a href="https://www.isitwp.com/wordpress-website-security-scanner/" class="btn btn-outline-warning mb-2" role="button" target="_blank">isitWP</a>
           <hr>
       </article>
 
@@ -481,7 +484,7 @@
         <a href="https://developer.wordpress.org/advanced-administration/security/hardening/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Guide - Fix the root casuse</a>
 
         <hr>
-        <h3 class="display-9 link-body-emphasis mb-1">Plugin</h3>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
         <p>Some WordPress plguins can check the integrity of core and plguin files 
           as well as look for unscruplus or modified files. 
           Some users like to run multiple tools as some tools can find issues others can't.</p>
@@ -503,7 +506,7 @@
         <p>Logging user activitly helps with nonrepudiation, 
           ie proving a user has done somthing that they have claim not to have done. 
           It can also help with, debugging issues, complicance and testing. 
-          There are also server logs so its worth wile checking what can be done 
+          There are also server logs so it's worth wile checking what can be done 
           at the OS or host level too.</p>
         
         <a href="https://www.reddit.com/r/Wordpress/comments/1d47qse/plugins_for_nonrepudiation_and_user_audit_logging/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
@@ -539,9 +542,9 @@
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Limit login attempts</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>Limiting login attempts helps to prevent brute force attacks, 
-          where bad actors try things like numerous combinations of credentisl to guess passwords programaticaly. 
+          where bad actors try things like numerous combinations of credentials to guess passwords programaticaly. 
            This can be done with a WAF, on the server, with CAPTCHA and or with a WordPress plugin, 
-           so its a good idea to find out what your host is doing here first.
+           so it's a good idea to find out what your host is doing here first.
         </p>
         <a href="https://patchstack.com/articles/limit-login-attempts-wordpress/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">PatchStack Guide</a>
         <a href="https://www.fail2ban.org" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fail2Ban</a>
@@ -553,6 +556,7 @@
         <a href="https://www.limitloginattempts.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Limit Login Attempts</a>
         <a href="https://www.wordfence.com/help/firewall/brute-force/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
         <a href="https://solidwp.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Solid WP</a>
+        <a href="https://wordpress.org/plugins/loginizer/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Loginizer</a>
         <hr>
       </article> 
 
@@ -561,9 +565,9 @@
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Theme and plugin updates</h2>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>The core CMS, Themes and plugins in the WordPress repository can be set to auto update, this is a hot topic. 
+        <p>The core CMS, themes and plugins in the WordPress repository can be set to auto update, this is a hot topic. 
           Some perfer to autoupdate as many plugin related security fixes are automaticly applied without the need to log in.
-          Some think the risk of an updated plugin braking your site is a biiger risk. 
+          Some think the risk of an updated plugin breaking your site is a bigger risk. 
           Either way you will want to decided whats best for you and your situation.
           Many people like to take backups and test any changes on a test enviroment beofre they are relased to production. 
         </p>
