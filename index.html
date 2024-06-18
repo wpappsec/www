@@ -321,6 +321,104 @@
       </article>
 
 
+
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">WordPress user management</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>
+          A key component to keeping your site safe is to frequently audit who 
+          you are granting access to and what privileges your grant the user, 
+          using the principle of least privilege. </p>
+          <p>WordPress has default roles and capability’s but these can be 
+          also extended by a theme or plugins 
+          so it’s good to check what your application can do in this regard. 
+          Reducing the number of users in your site can reduce the risk of privilege excitation, 
+          reducing the privileges reduces the risk of users having unintended access. 
+          You could also consider using a plugin to remove, deactivate or de privilege 
+          users based on conditions. </p>
+          <p>You could also look at authentication with a 
+          corporate identity linked to corporate emails, removing access to the CMS 
+          when a user has left the organisation.             
+        </p>
+       <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
+       <br> -->   
+        <a href="https://learn.wordpress.org/lesson-plan/user-management/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress User Management</a>
+        <a href="https://wordpress.org/documentation/article/roles-and-capabilities/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress User Capabilities</a>
+        <a href="https://melapress.com/inactive-users-wordpress/" class="btn btn-outline-primary mb-2" role="button" target="_blank">MelaPress</a>
+        <a href="https://melapress.com/ultimate-guide-wordpress-user-management/" class="btn btn-outline-primary mb-2" role="button" target="_blank">MelaPress</a>
+        <hr>
+      </article> 
+
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="userauditlogging">User audit logging</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>Logging user activitly helps with nonrepudiation, 
+          ie proving a user has done somthing that they have claim not to have done. 
+          It can also help with, debugging issues, complicance and testing. 
+          There are also server logs so it's worth wile checking what can be done 
+          at the OS or host level too.</p>
+        
+        <a href="https://www.reddit.com/r/Wordpress/comments/1d47qse/plugins_for_nonrepudiation_and_user_audit_logging/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
+       <hr>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
+        <p>WordPress has plugins that can help.</p>
+        <a href="https://wp-stream.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Stream</a>
+        <a href="https://wpadminaudit.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Admin Audit</a>
+        <a href="https://melapress.com/wordpress-activity-log/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Activity Log</a>
+        <a href="https://wordpress.org/plugins/logdash-activity-log/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Log Dash</a>
+        <hr>
+      </article> 
+ 
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="mfa">Multi / two factor authentication</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>Multi or two factor authentication makes the login prcess require somthing the user knows
+           (the password) as well as something the user has (the second factor), 
+           this makes it harder for someone to login that only knows the password and username.</p>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3> 
+        <p>WordPress has many plugins that offer this functionality. </p>
+        <a href="https://www.wordfence.com/help/tools/two-factor-authentication/#how-to-enable-two-factor-authentication" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
+          <a href="https://wordpress.org/plugins/two-factor/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordPress</a>
+          <a href="https://solidwp.com/security/wordpress-two-factor-authentication/" class="btn btn-outline-primary mb-2" role="button" target="_blank">SolidWP</a>
+          <a href="https://aiosplugin.com/features/" class="btn btn-outline-primary mb-2" role="button" target="_blank">AIOS Plugin</a>
+          <a href="https://wpmudev.com/project/wp-defender/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WPMU Defender MFA</a>
+          <hr>
+      </article>  
+      
+       
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Limit login attempts</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>Limiting login attempts helps to prevent brute force attacks, 
+          where bad actors try things like numerous combinations of credentials to guess passwords programaticaly. 
+           This can be done with a WAF, on the server, with CAPTCHA and or with a WordPress plugin, 
+           so it's a good idea to find out what your host is doing here first.
+        </p>
+        <a href="https://patchstack.com/articles/limit-login-attempts-wordpress/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">PatchStack Guide</a>
+        <a href="https://www.fail2ban.org" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fail2Ban</a>
+        <a href="https://www.cloudflare.com/products/turnstile/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Turn Style</a>
+         <hr>
+        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
+        <p>Some WordPress plugins offer this functionality.
+        </p>
+        <a href="https://www.limitloginattempts.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Limit Login Attempts</a>
+        <a href="https://www.wordfence.com/help/firewall/brute-force/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
+        <a href="https://solidwp.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Solid WP</a>
+        <a href="https://wordpress.org/plugins/loginizer/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Loginizer</a>
+        <hr>
+      </article> 
+
       <article class="blog-post">
         <hr>
         <h2 class="display-2 link-body-emphasis mb-1" ID="passwordpolicy">Password policies and password managers</h2>
@@ -331,7 +429,7 @@
          <!-- https://xkcd.com/936/ -->
         <p>Having a password policy makes makes things like guessing passwords 
           or obtaing password from data dumps harder for both humans and computers.
-          We might want a password that is easy to remember but difficult to guess, 
+          You might want a password that is easy to remember but difficult to guess, 
           or just difficult to guess!</p>
         <a href="https://wordpress.org/documentation/article/password-best-practices/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress.org Guide</a>
         <br>
@@ -373,38 +471,7 @@
         <a href="https://www.enpass.io/" class="btn btn-outline-warning mb-2" role="button" target="_blank">EnPass</a>
         <a href="https://bitwarden.com/" class="btn btn-outline-warning mb-2" role="button" target="_blank">BitWarden</a>
         <a href="https://bitwarden.com/help/self-host-an-organization/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">BitWarden Self Hosted</a>
-      </article> 
-
-      <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">WordPress user management</h2>
-        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
-        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
-        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          A key component to keeping your site safe is to frequently audit who 
-          you are granting access to and what privileges your grant the user, 
-          using the principle of least privilege. </p>
-          <p>WordPress has default roles and capability’s but these can be 
-          also extended by a theme or plugins 
-          so it’s good to check what your application can do in this regard. 
-          Reducing the number of users in your site can reduce the risk of privilege excitation, 
-          reducing the privileges reduces the risk of users having unintended access. 
-          You could also consider using a plugin to remove, deactivate or de privilege 
-          users based on conditions. </p>
-          <p>You could also look at authentication with a 
-          corporate identity linked to corporate emails, removing access to the CMS 
-          when a user has left the organisation.             
-        </p>
-       <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
-       <br> -->   
-        <a href="https://learn.wordpress.org/lesson-plan/user-management/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress User Management</a>
-        <a href="https://wordpress.org/documentation/article/roles-and-capabilities/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress User Capabilities</a>
-        <a href="https://melapress.com/inactive-users-wordpress/" class="btn btn-outline-primary mb-2" role="button" target="_blank">MelaPress</a>
-        <a href="https://melapress.com/ultimate-guide-wordpress-user-management/" class="btn btn-outline-primary mb-2" role="button" target="_blank">MelaPress</a>
-        <hr>
-      </article> 
-
-
+      </article>       
 
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Penetration testing, bounties and audits</h2>
@@ -456,7 +523,6 @@
         <a href="https://wordpress.org/plugins/plugin-check/ " class="btn btn-outline-primary mb-2" role="button" target="_blank">WordPress Plugin Checker</a>
         <a href="https://patchstack.com/auditing/" class="btn btn-outline-warning mb-2" role="button" target="_blank">PatchStack Audit</a>
       </article>       
-
 
       <article class="blog-post">
         <hr>
@@ -537,8 +603,6 @@
         <a href="https://sucuri.net/website-malware-removal/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Sucuri</a>
         <hr>
       </article> 
-
-
       
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Salts, keys and hashes</h2>
@@ -566,7 +630,6 @@
         <hr>
       </article>
 
-      
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">HTTPS TLS SSL</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
@@ -587,8 +650,6 @@
         <a href="https://www.cloudflare.com/ssl/encrypted-sni/" class="btn btn-outline-warning mb-2" role="button" target="_blank">CloudFare Check - Browser</a>
         <hr>
       </article> 
-
- 
       
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Spam</h2>
@@ -661,74 +722,6 @@
         <a href="https://servmask.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">AIO</a>
         
       </article>  
-  
-
-
-      <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="userauditlogging">User audit logging</h2>
-        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
-        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
-        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Logging user activitly helps with nonrepudiation, 
-          ie proving a user has done somthing that they have claim not to have done. 
-          It can also help with, debugging issues, complicance and testing. 
-          There are also server logs so it's worth wile checking what can be done 
-          at the OS or host level too.</p>
-        
-        <a href="https://www.reddit.com/r/Wordpress/comments/1d47qse/plugins_for_nonrepudiation_and_user_audit_logging/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
-       <hr>
-        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>WordPress has plugins that can help.</p>
-        <a href="https://wp-stream.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Stream</a>
-        <a href="https://wpadminaudit.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Admin Audit</a>
-        <a href="https://melapress.com/wordpress-activity-log/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Activity Log</a>
-        <a href="https://wordpress.org/plugins/logdash-activity-log/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Log Dash</a>
-        <hr>
-      </article> 
- 
-
-      <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="mfa">Multi / two factor authentication</h2>
-        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
-        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
-        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Multi or two factor authentication makes the login prcess require somthing the user knows
-           (the password) as well as something the user has (the second factor), 
-           this makes it harder for someone to login that only knows the password and username.</p>
-        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3> 
-        <p>WordPress has many plugins that offer this functionality. </p>
-        <a href="https://www.wordfence.com/help/tools/two-factor-authentication/#how-to-enable-two-factor-authentication" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
-          <a href="https://wordpress.org/plugins/two-factor/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordPress</a>
-          <a href="https://solidwp.com/security/wordpress-two-factor-authentication/" class="btn btn-outline-primary mb-2" role="button" target="_blank">SolidWP</a>
-          <a href="https://aiosplugin.com/features/" class="btn btn-outline-primary mb-2" role="button" target="_blank">AIOS Plugin</a>
-          <a href="https://wpmudev.com/project/wp-defender/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WPMU Defender MFA</a>
-          <hr>
-      </article>  
-      
-       
-      <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Limit login attempts</h2>
-        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
-        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
-        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Limiting login attempts helps to prevent brute force attacks, 
-          where bad actors try things like numerous combinations of credentials to guess passwords programaticaly. 
-           This can be done with a WAF, on the server, with CAPTCHA and or with a WordPress plugin, 
-           so it's a good idea to find out what your host is doing here first.
-        </p>
-        <a href="https://patchstack.com/articles/limit-login-attempts-wordpress/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">PatchStack Guide</a>
-        <a href="https://www.fail2ban.org" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fail2Ban</a>
-        <a href="https://www.cloudflare.com/products/turnstile/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Turn Style</a>
-         <hr>
-        <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Some WordPress plugins offer this functionality.
-        </p>
-        <a href="https://www.limitloginattempts.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Limit Login Attempts</a>
-        <a href="https://www.wordfence.com/help/firewall/brute-force/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
-        <a href="https://solidwp.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Solid WP</a>
-        <a href="https://wordpress.org/plugins/loginizer/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Loginizer</a>
-        <hr>
-      </article> 
 
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">WordPress APIs</h2>
