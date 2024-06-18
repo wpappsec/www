@@ -147,15 +147,9 @@
     <div class="col-lg-12 px-0">
       <h1 class="display-4 fst-italic">WordPress Application Security</h1>
       <img src="assets/logo.png" width="150" height="150" alt="" class="float-end m-3">  
-      <p class="lead my-3">WordPress is awesome, it's super easy to host with a one click install, 
-                           so you can be up and running in minuets. 
-                           These low barriers to entry along with it's popularity 
-                           make WordPress suseptiable to mistakes and micheif.</p> 
-        <p class="lead my-3">To secure your WordPress site there are a poletheria of solutions to choose from  
-                           but knowing which ones to use, how it should be configured 
-                           and who should do this work is complicated.</p> 
-      <p class="lead my-3">Through collating and sharing links and resources 
-                           we aim to improve WordPress Application Security.</p>  
+      <p class="lead my-3">WordPress is awesome, it's super easy to host with a one click install, so you can be up and running in minuets. These low barriers to entry along with it's popularity make WordPress suseptiable to mistakes and micheif.</p> 
+        <p class="lead my-3">To secure your WordPress site there are a poletheria of solutions to choose from but knowing which ones to use, how it should be configured and who should do this work is complicated.</p> 
+      <p class="lead my-3">Through collating and sharing links and resources we aim to improve WordPress Application Security.</p>  
       <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">Red Links go to Reddit conversations</a>
       <a href="#" class="btn btn-outline-secondary mb-2 btn-sm" role="button" target="_blank">Grey links go to documentation</a>
       <a href="#" class="btn btn-outline-primary mb-2 btn-sm" role="button" target="_blank">Blue links go to WordPress plugins</a>
@@ -201,31 +195,29 @@
         The good stuff...
       </h3>
 
-
-
-
-
-
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">WordPress user management</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          A key component to keeping your site safe is to frequently audit who 
+        <p>A key component to keeping your site safe is to frequently audit who 
           you are granting access to and what privileges your grant the user, 
-          using the principle of least privilege. </p>
-          <p>WordPress has default roles and capability’s but these can be 
+          using the principle of least privilege.</p>
+        <p>WordPress has default roles and capability’s but these can be 
           also extended by a theme or plugins 
           so it’s good to check what your application can do in this regard. 
           Reducing the number of users in your site can reduce the risk of privilege excitation, 
           reducing the privileges reduces the risk of users having unintended access. 
-          You could also consider using a plugin to remove, deactivate or de privilege 
-          users based on conditions. </p>
-          <p>You could also look at authentication with a 
-          corporate identity linked to corporate emails, removing access to the CMS 
-          when a user has left the organisation.             
-        </p>
+          You could also consider the following...</p>
+          <ul>
+            <li>automaticly remove, deactivate or de privilege users based on conditions</li>
+            <li>authenticate with a corporate identity linked to corporate emails</li>
+            <li>removing access when a user has left the organisation</li>
+            <li>not using admin accounts to publish content</li>
+            <li>not using the usernames as the display names</li>
+            <li>reduce users</li>
+            <li>reduce privilages</li>
+          </ul> 
        <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
        <br> -->   
         <a href="https://learn.wordpress.org/lesson-plan/user-management/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress User Management</a>
@@ -247,8 +239,8 @@
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>Logging user activitly helps with nonrepudiation, 
           ie proving a user has done somthing that they have claim not to have done. 
-          It can also help with, debugging issues, complicance and testing. 
-          There are also server logs so it's worth wile checking what can be done 
+          It can also help with debugging issues, complicance and testing. 
+          There are also server logs, so it's worth wile checking what can be done 
           at the OS or host level too.</p>
         
         <a href="https://www.reddit.com/r/Wordpress/comments/1d47qse/plugins_for_nonrepudiation_and_user_audit_logging/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
@@ -297,8 +289,8 @@
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>Limiting login attempts helps to prevent brute force attacks, 
           where bad actors try things like numerous combinations of credentials to guess passwords programaticaly. 
-           This can be done with a WAF, on the server, with CAPTCHA and or with a WordPress plugin, 
-           so it's a good idea to find out what your host is doing here first.
+           This can be mitigated with a WAF, with software on the server, with CAPTCHA and or with a WordPress plugin, 
+           so it's a good idea to find out what your host and server is doing here too.
         </p>
         <a href="https://patchstack.com/articles/limit-login-attempts-wordpress/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">PatchStack Guide</a>
         <a href="https://www.fail2ban.org" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fail2Ban</a>
@@ -325,10 +317,10 @@
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
 
          <!-- https://xkcd.com/936/ -->
-        <p>Having a password policy makes makes things like guessing passwords 
-          or obtaing password from data dumps harder for both humans and computers.
+        <p>Having a password policy makes guessing passwords 
+          or using passwords obtained from data dumps harder for both humans and computers.
           You might want a password that is easy to remember but difficult to guess, 
-          or just difficult to guess!</p>
+          or just difficult to guess.</p>
         <a href="https://wordpress.org/documentation/article/password-best-practices/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress.org Guide</a>
         <br>
         <a href="https://www.reddit.com/r/Wordpress/comments/1d3l2ax/what_are_your_thoughts_on_password_policies_and/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
@@ -380,17 +372,17 @@
         <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Penetration testing, bounties and audits</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>This area covers a wider range of work, 
-          be sure to check the secion on scanning too as many aspects there alos overlap</p>
+        <p>This area covers a wider range of overlapping work, 
+           check the secion on scanning too as many aspects there also overlap.</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Penetration testing</h3>
         <p>
-          You can attempt to find vulnerabilities in your product through penetration testing. 
+          You can attempt to find vulnerabilities in your aplication through penetration testing. 
           This varies in scope and method and can be as little as an automated scanner with 
           an automated report right though to full time teams continually trying to gain access 
           both with and without information or access on your systems and code. 
           It is wise to consider who will do the work and how this will be done.
-          You might be better onsidering using themes and plugins that have this work done for you.
+          You might want to consider using themes and plugins that have had this work done.
         </p>
         <!--         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br> -->
@@ -403,7 +395,7 @@
           There are bug bounty programs for both the WordPress CMS and Automattic plugins. 
           Some other plugins and themes may also have bug bounty programs too. 
           These programmes encourage people to find and in turn fix vulnerabilities in software. 
-          It might be worth considering if such a programme would be beneficial to your product, 
+          It might be worth considering if such a programme would be beneficial to your application, 
           or if you should use theme and plugins that participate in such programmes.
         </p>
         <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
@@ -563,8 +555,14 @@
           If you are running a blog you may wish to review the settings to 
           make sure they work for your site. 
           Spam can be relentless if not effectively managed and unnecessary accounts 
-          pose the risk of account escalation.            
-        </p>
+          pose the risk of account escalation.  Consider the following... </p>
+          <li>block comments containing certian keyworks</li>
+          <li>queue comments containing links</li>
+          <li>verify email addresses before allowing comments</li>
+          <li>require commenters to have an account</li>
+          <li>close comments on old posts</li>
+          <li>appove all comments before publishing</li>
+          <br>
         <!-- 
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
@@ -658,8 +656,7 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-        </p>
+        <p>Consider deactivating and removeing all unused themes and plugins.</p>
         <a href="https://www.reddit.com/r/Wordpress/comments/1cyo1yu/should_i_delete_twenty_twenty_twenty_one_twenty/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
         <div class="alert alert-info mt-4" role="alert">
