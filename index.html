@@ -200,15 +200,8 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>A key component to keeping your site safe is to frequently audit who 
-          you are granting access to and what privileges you grant the user, 
-          using the principle of least privilege.</p>
-        <p>WordPress has default roles and capability’s but these can be 
-          also extended by a theme or plugins 
-          so it is good to check what your application can do in this regard. 
-          Reducing the number of users in your site can reduce the risk of privilege escalation, 
-          reducing the privileges reduces the risk of users having unintended access. 
-          You could also consider the following...</p>
+        <p>A key component to keeping your site safe is to frequently audit who you are granting access to and what privileges you grant the user, using the principle of least privilege.</p>
+        <p>WordPress has default roles and capability’s but these can be also extended by a theme or plugins so it is good to check what your application can do in this regard. Reducing the number of users in your site can reduce the risk of privilege escalation, reducing the privileges reduces the risk of users having unintended access. You could also consider the following...</p>
           <ul>
             <li>automatically remove, deactivate or de privilege users based on conditions</li>
             <li>authenticate with a corporate identity linked to corporate emails</li>
@@ -288,9 +281,7 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Multi or two factor authentication makes the login process require something the user knows
-           (the password) as well as something the user has (the second factor), 
-           this makes it harder for someone to login that only knows the password and username.</p>
+        <p>Multi or two factor authentication makes the login process require something the user knows (the password) as well as something the user has (the second factor), this makes it harder for someone to login that only knows the password and username.</p>
            <a href="https://developer.wordpress.org/advanced-administration/security/mfa/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress</a>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3> 
         <p>WordPress has many plugins that offer this functionality. </p>
@@ -312,11 +303,7 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>Limiting login attempts helps to prevent brute force attacks, 
-          where bad actors try things like numerous combinations of credentials to guess passwords programmatically. 
-           This can be mitigated with a WAF, with software on the server, with CAPTCHA and or with a WordPress plugin. 
-           It's a good idea to find out what your host and server is doing here too.
-        </p>
+        <p>Limiting login attempts helps to prevent brute force attacks, where bad actors try things like numerous combinations of credentials to guess passwords programmatically. This can be mitigated with a WAF, with software on the server, with CAPTCHA and or with a WordPress plugin. It's a good idea to find out what your host and server is doing here too.</p>
         <a href="https://patchstack.com/articles/limit-login-attempts-wordpress/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">PatchStack Guide</a>
         <a href="https://www.fail2ban.org" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fail2Ban</a>
         <a href="https://www.cloudflare.com/products/turnstile/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Turn Style</a>
@@ -342,10 +329,7 @@
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
 
          <!-- https://xkcd.com/936/ -->
-        <p>Having a password policy makes guessing passwords 
-          or using passwords obtained from data dumps harder for both humans and computers.
-          You might want a password that is easy to remember but difficult to guess, 
-          or just difficult to guess.</p>
+        <p>Having a password policy makes guessing passwords or using passwords obtained from data dumps harder for both humans and computers. You might want a password that is easy to remember but difficult to guess, or just difficult to guess.</p>
         <a href="https://developer.wordpress.org/advanced-administration/security/brute-force/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress.org Advanced Guide</a>
         <a href="https://wordpress.org/documentation/article/password-best-practices/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress.org Guide</a>
         <br>
@@ -402,14 +386,7 @@
            check the section on scanning too as many aspects there also overlap.</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Penetration testing</h3>
-        <p>
-          You can attempt to find vulnerabilities in your application through penetration testing. 
-          This varies in scope and method and can be as little as an automated scanner with 
-          an automated report right though to full time teams continually trying to gain access 
-          both with and without information or access on your systems and code. 
-          It is wise to consider who will do the work and how this will be done.
-          You might want to consider using themes and plugins that have had this work done.
-        </p>
+        <p>You can attempt to find vulnerabilities in your application through penetration testing. This varies in scope and method and can be as little as an automated scanner with an automated report right though to full time teams continually trying to gain access both with and without information or access on your systems and code. It is wise to consider who will do the work and how this will be done. You might want to consider using themes and plugins that have had this work done.</p>
         <!--         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br> -->
         <a href="https://www.crest-approved.org/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Crest</a>
@@ -417,13 +394,7 @@
         <a href="https://www.ncsc.gov.uk/section/products-services/verify-suppliers" class="btn btn-outline-warning mb-2" role="button" target="_blank">NCSC</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Bug bounty</h3>
-        <p>
-          There are bug bounty programs for both the WordPress CMS and Automattic plugins. 
-          Some other plugins and themes may also have bug bounty programs too. 
-          These programmes encourage people to find and in turn fix vulnerabilities in software. 
-          It might be worth considering if such a programme would be beneficial to your application, 
-          or if you should use theme and plugins that participate in such programmes.
-        </p>
+        <p>There are bug bounty programs for both the WordPress CMS and Automattic plugins. Some other plugins and themes may also have bug bounty programs too.     These programmes encourage people to find and in turn fix vulnerabilities in software. It might be worth considering if such a programme would be beneficial to your application, or if you should use theme and plugins that participate in such programmes.</p>
         <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br> -->
         <a href="https://make.wordpress.org/security/ " class="btn btn-outline-secondary mb-2" role="button" target="_blank">Make WordPress</a>
@@ -433,9 +404,7 @@
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Theme and plugin reviews</h3>
         <p>
-          Similar to bug bounties and pen tests code can be reviewed and audited 
-          by individuals, companies or software to help identify issues or vulnerabilities in your theme, 
-          plugins or integrations.            
+          Similar to bug bounties and pen tests code can be reviewed and audited by individuals, companies or software to help identify issues or vulnerabilities in your theme, plugins or integrations.            
         </p>
         <!--
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
@@ -455,14 +424,10 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>It is a good idea to scan your application to check for malware and known vulnerabilities, 
-          this can be done with plugins, applications and online web scanners. 
-          Your host may already be doing this for you so it's a good idea to find out what they are doing for you.</p>
+        <p>It is a good idea to scan your application to check for malware and known vulnerabilities, this can be done with plugins, applications and online web scanners. Your host may already be doing this for you so it's a good idea to find out what they are doing for you.</p>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Malware scanning is a process that detects malicious software on a system, 
-          there are various WordPress plugins that can help do this.
-        </p>
+        <p>Malware scanning is a process that detects malicious software on a system, there are various WordPress plugins that can help do this.</p>
           <a href="https://www.malcare.com/features/malware-scanner/" class="btn btn-outline-primary mb-2" role="button" target="_blank">MalCare</a>
           <a href="https://jetpack.com/upgrade/scan/" class="btn btn-outline-primary mb-2" role="button" target="_blank">JetPack Scan</a>
           <a href="https://aiosplugin.com/features/" class="btn btn-outline-primary mb-2" role="button" target="_blank">AIOS</a>
@@ -472,8 +437,7 @@
           <a href="https://quttera.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Quttera</a>
           <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Network or external scan</h3>
-        <p>An external scan such as the WPScan CLI tool or Imunify360 could be run from a computer or server. 
-          This could be helpful as some malware can stop a plugin or application working effectivly.</p>
+        <p>An external scan such as the WPScan CLI tool or Imunify360 could be run from a computer or server. This could be helpful as some malware can stop a plugin or application working effectivly.</p>
 
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"If you have multiple sites I think can get very expensive easily, I decided to get immunify 360 and has good so far it will try to patch the sites also clean the sites if infected I really like it"</p>
@@ -504,13 +468,7 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>If you find malware you will need to remove it and then fix the root cause. 
-          You might be able to do this with a plugin or two as well as some help from your host.
-          You may need expert help from a sysadmin or a WordPress or security expert. 
-          How you fix the issue will depend on your set up, access and skill set 
-          as well as the root cause and remediation required.
-          You may need to set up a new or clean server and re build everything from clean sources.  
-        </p>
+        <p>If you find malware you will need to remove it and then fix the root cause. You might be able to do this with a plugin or two as well as some help from your host. You may need expert help from a sysadmin or a WordPress or security expert. How you fix the issue will depend on your set up, access and skill set as well as the root cause and remediation required. You may need to set up a new or clean server and re build everything from clean sources.</p>
         <a href="https://www.reddit.com/r/Wordpress/comments/1c4s3zd/malware_removal/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
         <br>
         <a href="https://wordpress.org/documentation/article/faq-my-site-was-hacked/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Guide - Remove the Malware</a>
@@ -518,9 +476,7 @@
 
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3>
-        <p>Some WordPress plguins can check the integrity of core and plguin files 
-          as well as look for unscrupulous or modified files. 
-          Some users like to run multiple tools as some tools can find issues others can't.</p>
+        <p>Some WordPress plguins can check the integrity of core and plguin files as well as look for unscrupulous or modified files. Some users like to run multiple tools as some tools can find issues others can't.</p>
         <a href="https://www.wordfence.com/docs/how-to-clean-a-hacked-wordpress-site-using-wordfence/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
         <a href="https://wordpress.org/plugins/gotmls/" class="btn btn-outline-primary mb-2" role="button" target="_blank">GOT MLS</a>
         <a href="https://jetpack.com/blog/wordpress-malware-removal/" class="btn btn-outline-primary mb-2" role="button" target="_blank">JetPack</a>
@@ -542,14 +498,7 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          When you generate a password or log into WordPress your password is mixed with a salt 
-          to generate a hash. 
-          This hash is then stored in the database meaning WordPress never has your 
-          plain text password so that if the database is obtained by a bad actor 
-          they do not have access to the plain text version of your users passwords.
-          <!-- Rotating the salts and keys means X Y Z -->
-        </p>
+        <p>When you generate a password or log into WordPress your password is mixed with a salt to generate a hash. This hash is then stored in the database meaning WordPress never has your plain text password so that if the database is obtained by a bad actor they do not have access to the plain text version of your users passwords. <!-- Rotating the salts and keys means X Y Z --> </p>
         <!-- 
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
@@ -573,15 +522,8 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          WordPress was originally built as a blogging platform so comes 
-          built in with commenting functionality, 
-          however many WordPress website are not blogs and do not use 
-          comments so you may wish to disable these functions. </p><p>
-          If you are running a blog you may wish to review the settings to 
-          make sure they work for your site. 
-          Spam can be relentless if not effectively managed and unnecessary accounts 
-          pose the risk of account escalation.  Consider the following... </p>
+        <p>WordPress was originally built as a blogging platform so comes built in with commenting functionality, however many WordPress website are not blogs and do not use comments so you may wish to disable these functions.</p>
+          <p>If you are running a blog you may wish to review the settings to make sure they work for your site. Spam can be relentless if not effectively managed and unnecessary accounts pose the risk of account escalation.  Consider the following... </p>
           <li>block comments containing certain keywords</li>
           <li>queue comments containing links</li>
           <li>verify email addresses before allowing comments</li>
@@ -612,8 +554,7 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          WordPress can send emails but reliably sending emails is a complicated matter. You might want to consider how emails are sent to improve the chances of delivery and to avoid block lists. There are also many security protocols around email sending so there is a lot to read.        </p>
+        <p>WordPress can send emails but reliably sending emails is a complicated matter. You might want to consider how emails are sent to improve the chances of delivery and to avoid block lists. There are also many security protocols around email sending so there is a lot to read.</p>
           <ul>
             <li>Do your emails contain sensitive data?</li>
             <li>Do your emails contain crucial updates?</li>
@@ -671,30 +612,18 @@
         <a href="https://developer.wordpress.org/rest-api/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Rest API Handbook</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Media API </h3>
-        <p>
-          When an image is uploaded to the WordPress media library 
-          that information can often be accessible by the public using the WordPress media API. 
-          You should consider reviewing your media or disabling access to 
-          help ensure no data is unintentionally exposed.
-          </p>
+        <p>When an image is uploaded to the WordPress media library that information can often be accessible by the public using the WordPress media API. You should consider reviewing your media or disabling access to help ensure no data is unintentionally exposed.</p>
           <a href="https://developer.wordpress.org/rest-api/reference/media/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Media Rest API</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">Users API</h3>
-        <p>The WordPress API allows for username enumeration, 
-          WordPress considers the username as public, 
-          but many user may wish to hide this information from the public. 
-        </p>
+        <p>The WordPress API allows for username enumeration, WordPress considers the username as public, but many user may wish to hide this information from the public.</p>
         <a href="https://www.reddit.com/r/ProWordPress/comments/1clp2dm/why_does_the_user_list_have_public_access/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
          
         <a href="https://developer.wordpress.org/rest-api/reference/users/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Users Rest API</a>
         <hr>
         <h3 class="display-9 link-body-emphasis mb-1">XMLRPC API</h3>
-        <p>
-          This core API was introduced to enable 3rd party apps to 
-          integrate with WordPress. 
-          Unless required it is recommended by many to disable access.
-        </p>
+        <p>This core API was introduced to enable 3rd party apps to integrate with WordPress. Unless required it is recommended by many to disable access.</p>
         <!-- 
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
@@ -795,12 +724,7 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>The core CMS, themes and plugins in the WordPress repository can be set to auto update, this is a hot topic. 
-          Some perfere to autoupdate as many plugin related security fixes are automatically applied without the need to log in.
-          Some think the risk of an updated plugin breaking your site is a bigger risk. 
-          Either way you will want to decided whats best for you and your situation.
-          Many people like to take backups and test any changes on a test environment before they are released to production. 
-        </p>
+        <p>The core CMS, themes and plugins in the WordPress repository can be set to auto update, this is a hot topic. Some perfere to autoupdate as many plugin related security fixes are automatically applied without the need to log in. Some think the risk of an updated plugin breaking your site is a bigger risk. Either way you will want to decided whats best for you and your situation. Many people like to take backups and test any changes on a test environment before they are released to production.</p>
         <a href="https://www.reddit.com/r/Wordpress/comments/17spnef/whats_your_best_practices_for_installing_updates/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <a href="https://www.reddit.com/r/Wordpress/comments/11npv56/should_i_disable_updates_for_wordpress_andor/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
         <br>
@@ -831,15 +755,7 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-
-
-        <p>Firewalls can monitor, filter and block traffic traffic between end users and your application,
-           these can be added at the network, host or application level.
-           You may already be using a solution that provides some protection 
-           so consider what you already have in place.
-           There are pros and cons to each combination 
-           so think about what is right for you and your users. 
-        </p> 
+        <p>Firewalls can monitor, filter and block traffic traffic between end users and your application, these can be added at the network, host or application level. You may already be using a solution that provides some protection so consider what you already have in place. There are pros and cons to each combination so think about what is right for you and your users.</p> 
       
       <blockquote class="blockquote ms-3 display-1">
         <p class="mb-4 small fs-6">"If you don't use a waf you're doing it wrong"</p>
@@ -848,9 +764,6 @@
       
       <a href="https://www.reddit.com/r/Wordpress/comments/1d2rkzq/what_are_your_thoughts_on_wafs/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
       <a href="https://en.wikipedia.org/wiki/Web_application_firewall" class="btn btn-outline-secondary mb-2 btn-sm" role="button" target="_blank">Wikipedia - WAF</a>
-       
-
-
 
       <hr>
       <h3 class="display-6 link-body-emphasis mb-1">Domain Name System WAF</h3>
@@ -862,11 +775,7 @@
         </blockquote>
 
         <hr>
-        <p>A popular DNS WAF solution is CloudFlare, 
-          they are widely used and have a free plan. 
-          Some managed hosts also offer a DNS WAF as part of their product offering,
-          so it would be wise to see if your host is helping too.
-        </p>
+        <p>A popular DNS WAF solution is CloudFlare, they are widely used and have a free plan. Some managed hosts also offer a DNS WAF as part of their product offering,  so it would be wise to see if your host is helping too.</p>
         
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"I'm using Cloudflare for many sites, and am a fan of the service. It's nice that it blocks so many bots and other nasty crap before it even touches the web server. Unfortunately, not everyone wants to, or can give up control of their DNS to Cloudflare. We have a lot of banks and hospitals as clients who it's not a good fit for."</p>
@@ -885,11 +794,7 @@
        
         <hr>
         <h3 class="display-6 link-body-emphasis mb-1">Host or operating system WAF</h3>     
-        <p>A WAF can be installed on the operating system or server,
-          many hosts will have a WAF running on their servers, 
-          you should ask your host to see how they are helping.
-          Using a WAF at the network VS the application or host will have pros and cons to consider. 
-          </p>
+        <p>A WAF can be installed on the operating system or server, many hosts will have a WAF running on their servers, you should ask your host to see how they are helping. Using a WAF at the network VS the application or host will have pros and cons to consider. </p>
 
         <blockquote class="blockquote ms-3 display-1">
            <p class="mb-4 small fs-6">"Any decent host has DDOS protection and Firewall Tool. If you are at some of EIG hosts or at shared plan, it's hard to be isolated from overflow attacks, no WAF can help you there."</p>
@@ -909,13 +814,7 @@
         <hr>
         <h3 class="display-6 link-body-emphasis mb-1">Application WAF</h3>
         <h4 class="display-8 link-body-emphasis mb-1">Plugins</h4>
-        <p>WordFence have a huge number of downloads in the WordPress repository, 
-          and on those numbers it's the most used plugin based WAF.
-          PatchStack is also a wildly discussed and praised plugin in the Redit foum.
-          WordPress plugins often come bundled with has many features, 
-          so you might already be using a plugin that has a WAF and not even know it!
-          It's a good idea to audit your plugins to see where your features overlap or have gaps.
-        </p>
+        <p>WordFence have a huge number of downloads in the WordPress repository, and on those numbers it's the most used plugin based WAF. PatchStack is also a wildly discussed and praised plugin in the Redit foum. WordPress plugins often come bundled with has many features, so you might already be using a plugin that has a WAF and not even know it! It's a good idea to audit your plugins to see where your features overlap or have gaps.</p>
 
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"Wordfence. It's the best out of the box solution and even the free tier offers excellent protection. Spend some time reading the documentation then some more time setting it up as you require."</p>
@@ -1040,12 +939,7 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          When working with suppliers it’s a good idea to understand the certifications 
-          and governing bodies they may belong to, this can but is not always be a good 
-          barometer to their understanding of security. You can also understand take a 
-          vendor security assessment using a framework to ascertain a suppliers security maturity.  
-        </p>
+        <p>When working with suppliers it’s a good idea to understand the certifications and governing bodies they may belong to, this can but is not always be a good   barometer to their understanding of security. You can also understand take a vendor security assessment using a framework to ascertain a suppliers security maturity.</p>
         <!-- 
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
@@ -1071,15 +965,8 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          This is something that cannot be done in the application and has to be done on the host or server. 
-          However this is worth a mention as it will be important for many to secure.  </p><p>
-          Setting up an SSL certificate is now pretty standard for most websites 
-          With Let’sEncrypt it’s often very easy and free, many hosting 
-          companies will offer free SSL certificates from Let’sEncrypt. 
-          It’s a good idea to check you SSL certificates is valid and to make 
-          sure you are using modern TLS versions. 
-        </p>
+          <p>This is something that cannot be done in the application and has to be done on the host or server. However this is worth a mention as it will be important for many to secure.</p>
+          <p>Setting up an SSL certificate is now pretty standard for most websites. With Let’sEncrypt it’s often very easy and free, many hosting companies will offer free SSL certificates from Let’sEncrypt. It’s a good idea to check you SSL certificates is valid and to make sure you are using modern TLS versions.</p>
         <a href="https://www.reddit.com/r/webdev/comments/1chxc0f/is_lets_encrypt_good_enough/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
         <a href="https://developer.wordpress.org/advanced-administration/security/https/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress HTTPS</a>
@@ -1099,15 +986,8 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          This is something that cannot be done in the application and has to be done on the host or server. 
-          However this is worth a mention as it will be important for many to secure.  </p><p>
-          Securing access to your domain registrar, Name Server and domain name system records 
-          is good idea. 
-          Unauthorised access to these systems can lead to traffic and data being diverted or 
-          domains being transferred. It might be useful to monitor domain squatting to potentially 
-          reduce fishing. Audits should be carried out on all systems.
-        </p>
+          <p>This is something that cannot be done in the application and has to be done on the host or server. However this is worth a mention as it will be important for many to secure.</p>
+          <p>Securing access to your domain registrar, Name Server and domain name system records is good idea. Unauthorised access to these systems can lead to traffic and data being diverted or domains being transferred. It might be useful to monitor domain squatting to potentially reduce fishing. Audits should be carried out on all systems.</p>
         <!--
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
@@ -1126,22 +1006,8 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          This is something that cannot be done in the application and has to be done on the version control system. 
-          However this is worth a mention as it will be important for many to secure.  </p><p>
-          When managing code in a version control system, 
-          care must be taken to manage what is and is not tracked in such a system. 
-          Having secretes, passwords, credentials or keys tracked can provide a 
-          bad actor with access if they gain control of such a system and care 
-          should be taken if they are in the code of commit history. 
-          Some hosted version control system offer additional features 
-          such as code scanning and commit scanning to help reduce 
-          this type of data entering the system. Some systems also 
-          help with managing issues and vulnerabilities reported in 
-          any software your code is dependent on. As with managing 
-          user access to the CMS access to version control systems 
-          should also be audited. 
-        </p>
+        <p>This is something that cannot be done in the application and has to be done on the version control system. However this is worth a mention as it will be important for many to secure.</p>
+        <p>When managing code in a version control system, care must be taken to manage what is and is not tracked in such a system. Having secretes, passwords, credentials or keys tracked can provide a bad actor with access if they gain control of such a system and care should be taken if they are in the code of commit history. Some hosted version control system offer additional features such as code scanning and commit scanning to help reduce this type of data entering the system. Some systems also help with managing issues and vulnerabilities reported in any software your code is dependent on. As with managing user access to the CMS access to version control systems should also be audited.</p>
         <!-- 
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>  -->
@@ -1158,11 +1024,9 @@
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
-        <p>
-          This is something that cannot be done in the application and has to be done on the host or server. 
-          However this is worth a mention as it will be important for many to secure.  </p><p>
-          You should speak with your host or sysadmin to make sure this is secure. 
-          You might want to check the following</p>
+        <p>This is something that cannot be done in the application and has to be done on the host or server. However this is worth a mention as it will be important for many to secure.</p>
+        <p>You should speak with your host or sysadmin to make sure this is secure. 
+        You might want to check the following</p>
           <ul>
             <li>Who has access?</li>
             <li>How do they have access? SSH SFTP</li>
@@ -1175,8 +1039,7 @@
             <li>Is PHP script execution forbidden in non essential directories (uploads, includes, cache etc)?</li>
           </ul>
            <p>In short it’s best to speak to an expert here.</p>
-          <p>Or outsource to a very good managed host, take a look at the hosting guides on the right hand side of this page.
-        </p>
+           <p>Or outsource to a very good managed host, take a look at the hosting guides on the right hand side of this page.</p>
         <!-- 
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
