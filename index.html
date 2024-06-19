@@ -217,6 +217,7 @@
             <li>not using the usernames as the display names</li>
             <li>reduce users</li>
             <li>reduce privilages</li>
+            <li>change the deafualt administrator's username</li>
           </ul> 
        <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
        <br> -->   
@@ -227,6 +228,29 @@
         <br>
         <div class="alert alert-info mt-4" role="alert">
           Key Takeway - Consider if you need to review your CMS users.
+        </div>
+        <hr>
+      </article> 
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">WordPress media management</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>A key component to keeping your site safe is to frequently audit what you are uploading to your server, as all files can be found via the WP Rest API or via file indexing if not blocked.</p>
+          <ul>
+            <li>is any of the media sensitive or private?</li>
+            <li>does any of the media contain PII?</li>
+            <li>are you uploading any other non stadard file formats, like SVG?</li>
+          </ul> 
+          <br>
+       <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
+       <br> -->   
+        <a href="https://codex.wordpress.org/Uploading_Files" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress File Uploader</a>
+        <a href="https://wordpress.org/documentation/article/media-library-screen/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Media Guide</a>
+        <br>
+        <div class="alert alert-info mt-4" role="alert">
+          Key Takeway - Consider if you need to remove media from your libary.
         </div>
         <hr>
       </article> 
@@ -267,6 +291,7 @@
         <p>Multi or two factor authentication makes the login prcess require somthing the user knows
            (the password) as well as something the user has (the second factor), 
            this makes it harder for someone to login that only knows the password and username.</p>
+           <a href="https://developer.wordpress.org/advanced-administration/security/mfa/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress</a>
         <h3 class="display-9 link-body-emphasis mb-1">Plugins</h3> 
         <p>WordPress has many plugins that offer this functionality. </p>
         <a href="https://www.wordfence.com/help/tools/two-factor-authentication/#how-to-enable-two-factor-authentication" class="btn btn-outline-primary mb-2" role="button" target="_blank">WordFence</a>
@@ -289,8 +314,8 @@
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>Limiting login attempts helps to prevent brute force attacks, 
           where bad actors try things like numerous combinations of credentials to guess passwords programaticaly. 
-           This can be mitigated with a WAF, with software on the server, with CAPTCHA and or with a WordPress plugin, 
-           so it's a good idea to find out what your host and server is doing here too.
+           This can be mitigated with a WAF, with software on the server, with CAPTCHA and or with a WordPress plugin. 
+           It's a good idea to find out what your host and server is doing here too.
         </p>
         <a href="https://patchstack.com/articles/limit-login-attempts-wordpress/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">PatchStack Guide</a>
         <a href="https://www.fail2ban.org" class="btn btn-outline-warning mb-2" role="button" target="_blank">Fail2Ban</a>
@@ -321,6 +346,7 @@
           or using passwords obtained from data dumps harder for both humans and computers.
           You might want a password that is easy to remember but difficult to guess, 
           or just difficult to guess.</p>
+        <a href="https://developer.wordpress.org/advanced-administration/security/brute-force/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress.org Advanced Guide</a>
         <a href="https://wordpress.org/documentation/article/password-best-practices/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress.org Guide</a>
         <br>
         <a href="https://www.reddit.com/r/Wordpress/comments/1d3l2ax/what_are_your_thoughts_on_password_policies_and/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
@@ -562,6 +588,7 @@
           <li>require commenters to have an account</li>
           <li>close comments on old posts</li>
           <li>appove all comments before publishing</li>
+          <li>disable pingbacks</li>
           <br>
         <!-- 
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
@@ -797,13 +824,17 @@
           <li>What will be in the back up?</li> 
           <li>How long will you keep the back ups?</li> 
           <li>How frequent will you take them?</li> 
-          <li>What if your back up is corrupt will the other backups also be corrupt?</li> 
+          <li>What if your back up is corrupt will the other backups also be corrupt?</li>
+          <li>Can your back ups be found with scanning tools?</li>
+          <le>Do non logged in users have access to the back up via a URL?</le>
           <p>Consider having a tested disaster recovery or business continuety plan.</p>
         <blockquote class="blockquote ms-3 display-1">
           <p class="mb-4 small fs-6">"Schedule daily, weekly or monthly backups. Send backups to remote servers (AWS S3, Dropbox, Google Drive) or your local machine."</p>
           <footer class="blockquote-footer">Acephaliax <cite title="Source Title"><a href="https://www.reddit.com/r/Wordpress/comments/1cqlvod/start_here_essential_resources_faqs/" target="_blank">Reddit</a></cite></footer>
         </blockquote>
         <a href="https://developer.wordpress.org/advanced-administration/security/backup/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Guide</a>
+        <a href="https://github.com/MazeWebArchitect/WP-Config-Finder/" class="btn btn-outline-warning mb-2" role="button" target="_blank">WP (back up) Config Finder</a>
+        <a href="https://wpscan.com/blog/wordpress-configuration-file-backups/" class="btn btn-outline-warning mb-2" role="button" target="_blank">WPScan (back ups)</a>
         <br>
         <a href="https://www.reddit.com/r/Wordpress/comments/1b2x5sm/best_backup_pluginwhich/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a>
         <hr>
@@ -881,6 +912,7 @@
         </p>
         <a href="https://www.reddit.com/r/webdev/comments/1chxc0f/is_lets_encrypt_good_enough/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
+        <a href="https://developer.wordpress.org/advanced-administration/security/https/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress HTTPS</a>
         <a href="https://letsencrypt.org/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Lets Encrypt</a>
         <a href="https://www.ssllabs.com/ssltest/" class="btn btn-outline-warning mb-2" role="button" target="_blank">SSL Labs Cert Checker</a>
         <a href="https://www.howsmyssl.com/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Hows my SSL - Browser</a>
@@ -960,14 +992,20 @@
           This is somthing that cannnot be done in the aplication and has to be done on the host or server. 
           However this is worth a mention as it will be important for many to secure.  </p><p>
           You should speak with your host or sysadmin to make sure this is secure. 
-          Check to see if you have access via SFTP, SSH etc and audit the access, credentials, 
-          ports and accounts. 
-          You may wish to lock access down by IP too, 
-          in short it’s best to speak to an expert.  
-          You will have to audit to any hosting platform you are using as well as 
-          understand how patching and updates are happening on your server, 
-          for things like the operating system, web server and database. </p>
-          <p>Take a look at the hosting guides on the right hand side of this page.
+          You might want to check the following</p>
+          <ul>
+            <li>Who has access?</li>
+            <li>How do they have access? SSH SFTP</li>
+            <li>Is the access audited?</li>
+            <li>What ports are open?</li>
+            <li>Are there any access rules?</li>
+            <li>How and when are things patched and updated?</li>
+            <li>Is directory browsing blocked?</li>
+            <li>is access to files and directories restricted?</li>
+            <li>Is PHP script execution forbiden in non essential directories (uploads, includes, cache etc)?</li>
+          </ul>
+           <p>In short it’s best to speak to an expert here.</p>
+          <p>Or outsource to a very good managed host, take a look at the hosting guides on the right hand side of this page.
         </p>
         <!-- 
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
