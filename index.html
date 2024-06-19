@@ -196,7 +196,7 @@
       </h3>
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">WordPress user management</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="user">WordPress user management</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -233,7 +233,7 @@
       </article> 
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">WordPress media management</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="media">WordPress media management</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -395,7 +395,7 @@
       </article>       
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Penetration testing, bounties and audits</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="pentest">Penetration testing, bounties and audits</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
         <p>This area covers a wider range of overlapping work, 
@@ -538,7 +538,7 @@
       </article> 
       
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Salts, keys and hashes</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="salt">Salts, keys and hashes</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -569,7 +569,7 @@
 
       
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Spam</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="spam">Spam</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -607,9 +607,61 @@
       </article>       
 
 
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="">System Emails</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>
+          WordPress can send emails but reliably sending emails is a complicated matter. You might want to consider how emails are sent to improve the chances of delivery and to avoid block lists. There are also many security protocols around email sending so there is a lot to read.        </p>
+          <ul>
+            <li>Do your emails contain senstive data?</li>
+            <li>Do your emails contain crucial updates?</li>
+            <li>Is a form plugin emailing you a customers PII?</li>
+          </ul>
+          <br>
+
+        <a href="https://www.reddit.com/r/Wordpress/comments/1cx29t0/wordpress_sent_mail_shows_dkimdmarc_fail/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
+        <br>
+        <a href="https://developer.wordpress.org/reference/functions/wp_mail/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">PHP Mail in WordPress</a> 
+        <a href="https://wordpress.org/plugins/wp-mail-smtp/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WP Mail SMTP</a> 
+        <a href="https://en.wikipedia.org/wiki/Sender_Policy_Framework" class="btn btn-outline-warning mb-2" role="button" target="_blank">Wiki SPF</a>
+        <a href="https://en.wikipedia.org/wiki/DMARC" class="btn btn-outline-warning mb-2" role="button" target="_blank">Wiki DMARC</a>
+        <a href="https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail" class="btn btn-outline-warning mb-2" role="button" target="_blank">Wiki DKIM</a>
+        <a href="https://mxtoolbox.com/blacklists.aspx" class="btn btn-outline-warning mb-2" role="button" target="_blank">MX Tool Box</a>
+        <a href="https://www.debouncer.com/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Debouncer</a>
+
+        <br>
+        <div class="alert alert-info mt-4" role="alert">
+          Key Takeway - Consider how important deliverability is to your aplication and if sensitive data is being sent via email in clear text.
+        </div>
+        <hr>
+      </article> 
+
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">WordPress APIs</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="code">Codeing best practices</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>Standards help to avoid common errors, improve readability and make modification easier. It makes the codebase look like it was written by a single plerson making modification easier.</p>
+        <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> --> 
+        <br> 
+        <a href="https://developer.wordpress.org/coding-standards/wordpress-coding-standards/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Coding Standards</a>
+        <a href="https://github.com/WordPress/WordPress-Coding-Standards?tab=readme-ov-file" class="btn btn-outline-secondary mb-2" role="button" target="_blank">More WordPress Coding Standards</a>
+        <a href="https://wordpress.org/plugins/plugin-check/#reviews " class="btn btn-outline-primary mb-2" role="button" target="_blank">Plugin Checker Plugin</a>
+        <a href="https://docs.wpvip.com/php_codesniffer/" class="btn btn-outline-warning mb-2" role="button" target="_blank">WPVIP standards</a>
+        <a href="https://10up.github.io/Engineering-Best-Practices/" class="btn btn-outline-warning mb-2" role="button" target="_blank">10Up Standards</a>
+
+        <br>
+        <div class="alert alert-info mt-4" role="alert">
+          Key Takeway - Consider what standards you should have for you aplication.
+        </div>
+        <hr>
+      </article> 
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="apis">WordPress APIs</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -657,7 +709,89 @@
       </article> 
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Theme and plugin updates</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="adminurl">Admin URL</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>Changing the admin URL can break your sites funcationalty and this is consider by many as security through obscurity, WordFence advise against this, but many WordPress users do change the admin URL.</p>
+        <a href="https://www.reddit.com/r/Wordpress/comments/1cg923t/change_wpadmin_to_something_else_like/" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
+        <br>
+        <a href="https://www.youtube.com/watch?v=sl4ftvOSOBM" class="btn btn-outline-warning mb-2" role="button" target="_blank">AUTO PLAYS - Video from WordFence</a>
+        <a href="https://en.wikipedia.org/wiki/Security_through_obscurity" class="btn btn-outline-warning mb-2" role="button" target="_blank">Wiki - Security through obscurity</a>
+        <br>
+        <div class="alert alert-info mt-4" role="alert">
+          Key Takeway - Consider if you really need to do this.
+        </div>
+        <hr>
+      </article> 
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="x">De bugging</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>De bugging tools can be used to show detailed information about errors. But you will want to make sure debugging is not avalibale to the public on a production enviroment.</p>
+        <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> --> 
+        <br>
+        <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress Debugging</a>
+        <a href="https://en-gb.wordpress.org/plugins/query-monitor/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Query Monitor</a>
+        <br>
+        <div class="alert alert-info mt-4" role="alert">
+          Key Takeway - Consider making sure dianostics is not visible to users.
+        </div>
+        <hr>
+      </article> 
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="x">Forms</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>Many WordPress sits add form plugins, forms can be a fantasic tool but they can also be used to send malicious content or files to a server so extra care must be taken.</p>
+        <ul>
+          <li>Is the input data sanatised?</li>
+          <li>Is the input data senstive or PII?</li>
+          <li>Is the user uploadeing files?</li>
+          <li>... if so where, what type of files, how big, and are they secure file types?</li>
+          <li>Is the data being send in plain text via email?</li>
+          <li>Is the data being stored in your database?</li>
+          <li>Can anyone fill out the form or should the user be logged in?</li>
+          <li>Do you need a CAPATCHA?</li>
+          <li>Do you need a honeypot?</li>
+          <li>Can this be a 3rd party tool embeded?</li>
+        </ul>
+        <br>
+        <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> --> 
+        <br>
+        <a href="https://wordpress.org/plugins/honeypot/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Honey Pot</a>
+        <a href="https://www.gravityforms.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Gravity Forms</a>
+        <a href="https://wpforms.com/" class="btn btn-outline-primary mb-2" role="button" target="_blank">WPForms</a>
+        <a href="https://wordpress.org/plugins/contact-form-7/" class="btn btn-outline-primary mb-2" role="button" target="_blank">Contact Form 7</a>
+        <br>
+        <div class="alert alert-info mt-4" role="alert">
+          Key Takeway - Consider the extra risks forms add to your site.
+        </div>
+        <hr>
+      </article> 
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="files">File editing </h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>Some users like to be able to edit files via WordPress, however this can lead to your site being broken. WordPress advises aginst enableing file editing.</p>
+        <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> -->
+        <br>
+        <a href="https://developer.wordpress.org/advanced-administration/wordpress/edit-files/" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress File Editing</a>
+        <br>
+        <div class="alert alert-info mt-4" role="alert">
+          Key Takeway - Consider if you are happy with users editing files directly on the server.
+        </div>
+        <hr>
+      </article>  
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="updates">Theme and plugin updates</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -679,7 +813,7 @@
       </article> 
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Unused themes and plugins</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="themes">Unused themes and plugins</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -812,6 +946,37 @@
         <hr>
       </article>
 
+
+      
+
+      <article class="blog-post">
+        <h2 class="display-2 link-body-emphasis mb-1" ID="headers">Security Headers</h2>
+        <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
+        <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
+        <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
+        <p>
+        Security headers can be modified to control things like what iframes can do with your users data (can they access the microphone?), what scripts can be embeded, what domains can be iframed into your site, if other sites can iframe your site. This is quite complex, so it is best to consult an expert.
+        </p>
+        <!-- <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> -->
+        <br>
+        <a href="https://github.com/amnestywebsite/humanity-content-security-policy" class="btn btn-outline-primary mb-2" role="button" target="_blank">Security header plugin</a>
+        <a href="https://securityheaders.com/" class="btn btn-outline-warning mb-2" role="button" target="_blank">Security header checking</a>
+        <a href="https://report-uri.com/ " class="btn btn-outline-warning mb-2" role="button" target="_blank">Report URI</a>
+        <a href="https://infosec.mozilla.org/guidelines/web_security#content-security-policy" class="btn btn-outline-warning mb-2" role="button" target="_blank">Moz - CSP</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP" class="btn btn-outline-warning mb-2" role="button" target="_blank">Moz - CSP 2</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options" class="btn btn-outline-warning mb-2" role="button" target="_blank">Moz - Xframe</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security" class="btn btn-outline-warning mb-2" role="button" target="_blank">Moz - STS</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Permissions_Policy" class="btn btn-outline-warning mb-2" role="button" target="_blank">Moz - Permissions</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options" class="btn btn-outline-warning mb-2" role="button" target="_blank">Moz - X content</a>
+
+        <br>
+        <div class="alert alert-info mt-4" role="alert">
+          Key Takeway - Consider if security headers could protect your users from things like rogue iframes or embeds.
+        </div>
+        <hr>
+      </article>     
+
+
       <article class="blog-post">
         <h2 class="display-2 link-body-emphasis mb-1">Back ups</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
@@ -864,9 +1029,15 @@
         </div>
         <hr>
       </article>  
+
+
+
+
+
+
       
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Certifications and bodies</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="industry">Certifications and bodies</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -897,7 +1068,7 @@
 
       
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">HTTPS TLS SSL</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="https">HTTPS TLS SSL</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -925,7 +1096,7 @@
       </article> 
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Domain names</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="domains">Domain names</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -952,7 +1123,7 @@
       </article> 
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Version control</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="versioncontrol">Version control</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -984,7 +1155,7 @@
       </article>
 
       <article class="blog-post">
-        <h2 class="display-2 link-body-emphasis mb-1" ID="limitloginattempts">Server user management</h2>
+        <h2 class="display-2 link-body-emphasis mb-1" ID="server">Server user management</h2>
         <p class="blog-post-meta">Requires proof reading - Requires Peer Review</p>
         <!-- <p class="blog-post-meta">Requires proof reading - Peer Reviewed on 31/12/2024 by <a href="#">User</a></p> -->
         <h3 class="display-9 link-body-emphasis mb-1">Generic</h3>
@@ -1002,7 +1173,7 @@
             <li>How and when are things patched and updated?</li>
             <li>Is directory browsing blocked?</li>
             <li>is access to files and directories restricted?</li>
-            <li>Is PHP script execution forbiden in non essential directories (uploads, includes, cache etc)?</li>
+            <li>Is PHP script execution forbidden in non essential directories (uploads, includes, cache etc)?</li>
           </ul>
            <p>In short it’s best to speak to an expert here.</p>
           <p>Or outsource to a very good managed host, take a look at the hosting guides on the right hand side of this page.
@@ -1010,9 +1181,9 @@
         <!-- 
         <a href="#" class="btn btn-outline-danger mb-2 btn-sm" role="button" target="_blank">See the conversation</a> 
         <br>
-        <a href="#" class="btn btn-outline-secondary mb-2" role="button" target="_blank">Text</a>
-        <hr>
+         <hr>
         -->
+        <a href="https://developer.wordpress.org/advanced-administration/server/file-permissions" class="btn btn-outline-secondary mb-2" role="button" target="_blank">WordPress File Permissions</a>
         <br>
         <div class="alert alert-info mt-4" role="alert">
           Key Takeway - Consider working with your host or sysadmin to make sure your host and server are secure. 
