@@ -12,7 +12,13 @@ To secure your WordPress site, there are a plethora of solutions to choose from,
 
 Through collating and sharing links and resources, we aim to improve WordPress Application Security for WordPress CMS admins.
 
+## How can I help?
+
+This GitHub community is for WordPress professionals that may include developers, engineers, site managers, product mangers, agency owners and or consulatnats who want to share their professinal knowledge with WordPress CMS adminstrators. 
+
 ## How to contribute
+
+Submitting a ticket is a great place to start. 
 
 ### New Section / Page 
 1. Create issue outlineing the content [here](https://github.com/wpappsec/www/issues/new/choose) 
