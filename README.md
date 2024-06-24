@@ -18,8 +18,8 @@ Through collating and sharing links and resources, we aim to improve WordPress A
 1. Create issue outlineing the content [here](https://github.com/wpappsec/www/issues/new/choose) 
 2. Make a pull reuest and add content to the draft page [here](https://github.com/wpappsec/www/blob/main/drafts.html) 
 3. Post question to Reditit /WordPress for community insights [here](https://www.reddit.com/r/Wordpress/) 
-4. Edit draft with insigths and quotes
-5. Request cotnent in moved to [published](https://github.com/wpappsec/www/blob/main/index.html)
+4. Edit draft with insigths and quotes gained from the community 
+5. On your ticket request that the content in moved to [published](https://github.com/wpappsec/www/blob/main/index.html)
 
 ### Request edits 
 1. Create issue outlineing the change [here](https://github.com/wpappsec/www/issues/new/choose) 
