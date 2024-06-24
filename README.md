@@ -2,7 +2,7 @@
 
 The ultimate WordPress Application Security guide for WordPress CMS admins
 
-https://www.reddit.com/user/WPAPPSEC/
+most of our community engaugment is here https://www.reddit.com/user/WPAPPSEC/
 
 ## Why?
 
