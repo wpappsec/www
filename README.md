@@ -1,8 +1,8 @@
 # WP App Sec
 
-The ultimate WordPress Application Security guide for WordPress CMS admins
+The ultimate WordPress Application Security guide for WordPress CMS admins.
 
-most of our community engaugment is here https://www.reddit.com/user/WPAPPSEC/
+Most of our community engaugment is here https://www.reddit.com/user/WPAPPSEC/
 
 ## Why?
 
