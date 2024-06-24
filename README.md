@@ -2,7 +2,7 @@
 
 The ultimate WordPress Application Security guide for WordPress CMS admins
 
-[social links]
+https://www.reddit.com/user/WPAPPSEC/
 
 ## Why?
 
@@ -13,3 +13,17 @@ To secure your WordPress site, there are a plethora of solutions to choose from,
 Through collating and sharing links and resources, we aim to improve WordPress Application Security for WordPress CMS admins.
 
 ## How to contribute
+
+### New Section / Page 
+1 - Create issue outlineing the content here 
+2 - Make a pull reuest on draft content here 
+3 - Post question to Reditit /WordPress for community insights
+4 - Edit draft with insigths and quotes
+5 - Request cotnent in moved to published 
+
+### Request edits 
+1 - Create issue outlineing the change here 
+2 - Make a pull reuest on published content
+
+
+
