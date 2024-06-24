@@ -2,7 +2,7 @@
 
 The ultimate WordPress Application Security guide for WordPress CMS admins.
 
-Most of our community engaugment is here https://www.reddit.com/user/WPAPPSEC/
+Most of our community engagement is here https://www.reddit.com/user/WPAPPSEC/
 
 ## Why?
 
@@ -14,22 +14,22 @@ Through collating and sharing links and resources, we aim to improve WordPress A
 
 ## Who is this repo and GitHub community for?
 
-This GitHub community is for WordPress professionals that may include developers, engineers, site managers, product mangers, agency owners and or consulatnats who want to share their professinal knowledge with WordPress CMS adminstrators. 
+This GitHub community is for WordPress professionals that may include developers, engineers, site managers, product managers, agency owners and or consultants who want to share their professinal knowledge with WordPress CMS adminstrators. 
 
 ## How to contribute
 
 Submitting a ticket is a great place to start. 
 
 ### New Section / Page 
-1. Create issue outlineing the content [here](https://github.com/wpappsec/www/issues/new/choose) 
+1. Create issue outlining the content [here](https://github.com/wpappsec/www/issues/new/choose) 
 2. Make a pull reuest and add content to the draft page [here](https://github.com/wpappsec/www/blob/main/drafts.html) 
 3. Post question to Reditit /WordPress for community insights [here](https://www.reddit.com/r/Wordpress/) 
 4. Edit draft with insigths and quotes gained from the community 
 5. On your ticket request that the content in moved to [published](https://github.com/wpappsec/www/blob/main/index.html)
 
 ### Request edits 
-1. Create issue outlineing the change [here](https://github.com/wpappsec/www/issues/new/choose) 
-2. Make a pull reuest on [published content](https://github.com/wpappsec/www/blob/main/index.html)
+1. Create issue outlining change [here](https://github.com/wpappsec/www/issues/new/choose) 
+2. Make a pull request on [published content](https://github.com/wpappsec/www/blob/main/index.html)
 
 
 
