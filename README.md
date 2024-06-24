@@ -12,7 +12,7 @@ To secure your WordPress site, there are a plethora of solutions to choose from,
 
 Through collating and sharing links and resources, we aim to improve WordPress Application Security for WordPress CMS admins.
 
-## How can I help?
+## Who is this repo and GitHub community for?
 
 This GitHub community is for WordPress professionals that may include developers, engineers, site managers, product mangers, agency owners and or consulatnats who want to share their professinal knowledge with WordPress CMS adminstrators. 
 
