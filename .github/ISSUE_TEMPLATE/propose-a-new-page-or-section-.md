@@ -11,15 +11,27 @@ assignees: ''
 
 ## Title
 
+Add text here.
+
 ## Sub Title 
+
+Add text here.
 
 ## Text 
 
+Add text here.
+
 ## Sub Title
+
+Add text here.
 
 ## Text
 
+Add text here.
+
 ## Reddit Link
+
+Add URL here 
 
 ## Quotes
 
