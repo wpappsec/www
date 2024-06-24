@@ -15,15 +15,15 @@ Through collating and sharing links and resources, we aim to improve WordPress A
 ## How to contribute
 
 ### New Section / Page 
-1 - Create issue outlineing the content here 
-2 - Make a pull reuest on draft content here 
-3 - Post question to Reditit /WordPress for community insights
-4 - Edit draft with insigths and quotes
-5 - Request cotnent in moved to published 
+1. Create issue outlineing the content here 
+2. Make a pull reuest on draft content here 
+3. Post question to Reditit /WordPress for community insights
+4. Edit draft with insigths and quotes
+5. Request cotnent in moved to published 
 
 ### Request edits 
-1 - Create issue outlineing the change here 
-2 - Make a pull reuest on published content
+1. Create issue outlineing the change here 
+2. Make a pull reuest on published content
 
 
 
